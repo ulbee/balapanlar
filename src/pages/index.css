@@ -1,1 +1,8 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/button/__enroll/button__enroll.css);
+@import url(../blocks/header/__navigation-list/header__navigation-list.css);
+@import url(../blocks/header/__navigation-link/header__navigation-link.css);

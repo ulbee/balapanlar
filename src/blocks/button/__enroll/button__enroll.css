@@ -1,0 +1,15 @@
+.button__enroll {
+  border: none;
+  padding: 0;
+  width: 224px;
+  height: 52px;
+  background: #252525;
+  border-radius: 50px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #ffff;
+  margin-left: auto;
+}
+.button__enroll:hover {
+  background: rgba(0, 0, 0, 0.7);
+}

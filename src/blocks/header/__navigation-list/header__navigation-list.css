@@ -1,0 +1,7 @@
+.header__navigation-list {
+  list-style-type: none;
+  padding-right: 30px;
+}
+.header__navigation-list:last-of-type {
+  padding: 0;
+}
