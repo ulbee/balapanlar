@@ -1,0 +1,6 @@
+.about__places-container {
+    margin: 60px 121px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(594px, 1fr));
+    grid-gap: 10px;
+}
