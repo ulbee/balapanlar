@@ -16,3 +16,6 @@
 @import url(../blocks/about/__place-description/about__place-description.css);
 @import url(../blocks/about/__region-name/about__region-name.css);
 @import url(../blocks/about/__dignity-text/about____dignity-text.css);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__header/partners__header.css);
+@import url(../blocks/partners/__container/partners__container.css);
