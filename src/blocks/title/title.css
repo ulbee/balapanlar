@@ -1,7 +1,9 @@
 .title {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: #000000;
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
+  margin: 0;
+  padding: 30px 0 0 30px;
 }

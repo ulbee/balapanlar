@@ -1,0 +1,7 @@
+.bullets-block {
+  display: flex;
+  padding-right: 30px;
+}
+.bullets-block:last-of-type {
+  padding-right: 0;
+}

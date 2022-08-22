@@ -17,5 +17,12 @@
 @import url(../blocks/about/__region-name/about__region-name.css);
 @import url(../blocks/about/__dignity-text/about____dignity-text.css);
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/popup__modal/popup__modal.css);
+@import url(../blocks/popup/__modal/popup__modal.css);
 @import url(../blocks/title/title.css);
+@import url(../blocks/bullets-block/__caption/bullets-block__caption.css);
+@import url(../blocks/bullets-block/__icon-user/bullets-block__icon-user.css);
+@import url(../blocks/bullets-block/bullets-block.css);
+@import url(../blocks/popup/__bullets-block-container/popup__bullets-block-container.css);
+@import url(../blocks/studied-material/studied-material.css);
+@import url(../blocks/studied-material/__info/studied-material__info.css);
+@import url(../blocks/popup/__studied-material-container/popup__studied-material-container.css);

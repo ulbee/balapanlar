@@ -1,0 +1,11 @@
+.studied-material {
+  border-radius: 50px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  max-width: 290px;
+  min-width: 138px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  /* vertical-align: top; */
+}
