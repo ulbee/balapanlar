@@ -1,4 +1,5 @@
 .principle__description {
-    width: 56%;
+    max-width: 847px;
+
     text-align: center;
 }

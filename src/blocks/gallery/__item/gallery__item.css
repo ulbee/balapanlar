@@ -1,3 +1,6 @@
 .gallery__item {
+    width: 100%;
     
+    flex-grow: 0;
+    flex-shrink: 0;
 }

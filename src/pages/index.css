@@ -30,3 +30,7 @@
 @import url(../blocks/principle/__container/principle__container.css);
 @import url(../blocks/principle/__description/principle__description.css);
 @import url(../blocks/principle/__image/principle__image.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
