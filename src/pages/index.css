@@ -26,3 +26,11 @@
 @import url(../blocks/studied-material/studied-material.css);
 @import url(../blocks/studied-material/__info/studied-material__info.css);
 @import url(../blocks/popup/__studied-material-container/popup__studied-material-container.css);
+@import url(../blocks/button-close/button-close.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/_popup/subtitle_popup.css);
+@import url(../blocks/popup/__check-skills/popup__check-skills.css);
+@import url(../blocks/popup/__check-icons/popup__check-icons.css);
+@import url(../blocks/subtitle/_popup/subtitle_popup.css);
+@import url(../blocks/subtitle/_check-skills/subtitle_check-skills.css);
+@import url(../blocks/popup/__skills-container/popup__skills-container.css);
