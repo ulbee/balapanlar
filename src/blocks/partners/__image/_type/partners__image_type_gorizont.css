@@ -1,0 +1,8 @@
+.partners__image_type_gorizont {
+    width: 202px;
+    height: 141px;
+    background-image: url(../../../../images/logo_gorizont.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
