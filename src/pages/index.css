@@ -1,12 +1,18 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__text/_size/page__text_size_m.css);
+@import url(../blocks/page/__text/_size/page__text_size_l.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
-@import url(../blocks/button/__enroll/button__enroll.css);
 @import url(../blocks/header/__navigation-list/header__navigation-list.css);
 @import url(../blocks/header/__navigation-link/header__navigation-link.css);
+
+@import url(../blocks/button/__enroll/button__enroll.css);
+
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__header/about__header.css);
 @import url(../blocks/about/__text/about__text.css);
@@ -16,3 +22,15 @@
 @import url(../blocks/about/__place-description/about__place-description.css);
 @import url(../blocks/about/__region-name/about__region-name.css);
 @import url(../blocks/about/__dignity-text/about____dignity-text.css);
+
+@import url(../blocks/principles/principles.css);
+@import url(../blocks/principles/__header/principles__header.css);
+
+@import url(../blocks/principle/principle.css);
+@import url(../blocks/principle/__container/principle__container.css);
+@import url(../blocks/principle/__description/principle__description.css);
+@import url(../blocks/principle/__image/principle__image.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
