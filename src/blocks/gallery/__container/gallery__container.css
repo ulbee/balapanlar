@@ -4,3 +4,12 @@
 
     overflow: hidden;
 }
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+    .gallery__container {
+        flex-wrap: nowrap;
+        overflow: visible;
+        flex-direction: column;
+    }
+}

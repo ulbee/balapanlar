@@ -1,6 +1,25 @@
 .principles__header {
-    padding: 0 0 12px;
+    padding: 0 0 80px;
     margin: 0;
 
     text-align: center;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+    .principles__header {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        
+        width: 100%;
+    }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+    .principles__header {
+        position: static;
+        padding: 0 0 30px;
+    }
 }
