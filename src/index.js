@@ -9,11 +9,9 @@ gsap.registerPlugin(ScrollTrigger);
  * Настройка анимации для галереи
  */
 let mm = gsap.matchMedia();
+let galleryItems = gsap.utils.toArray('.gallery__item');
 
-mm.add("(min-width: 801px)", () => {
-    let galleryItems = gsap.utils.toArray('.gallery__item');
-
-    console.log(-100 * (galleryItems.length - 1));
+mm.add("(min-width: 801px)", () => {    
 
     gsap.to(galleryItems, {
         scrollTrigger: {
