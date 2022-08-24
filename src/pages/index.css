@@ -34,3 +34,4 @@
 @import url(../blocks/subtitle/_popup/subtitle_popup.css);
 @import url(../blocks/subtitle/_check-skills/subtitle_check-skills.css);
 @import url(../blocks/popup/__skills-container/popup__skills-container.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
