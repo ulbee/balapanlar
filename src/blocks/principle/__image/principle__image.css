@@ -1,3 +1,11 @@
 .principle__image {
     max-height: 420px;
 }
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+    .principle__image {
+        max-height: 230px;
+        max-width: 100%;
+    }
+}
