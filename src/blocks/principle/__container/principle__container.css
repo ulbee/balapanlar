@@ -1,0 +1,25 @@
+.principle__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+    .principle__container {
+        height: 100vh;
+        justify-content: center;
+    }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+    .principle__container {
+        height: 100%;
+        padding-top: 60px;
+    }
+
+    .principle__container:first-child {
+        padding-top: 0;
+    }
+}
