@@ -12,9 +12,10 @@
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__places-container/about__places-container.css);
 @import url(../blocks/about/__place/about__place.css);
+@import url(../blocks/about/__place-container/about__place-container.css);
 @import url(../blocks/about/__place-img/about__place-img.css);
 @import url(../blocks/about/__place-description/about__place-description.css);
-@import url(../blocks/about/__region-name/about__region-name.css);
-@import url(../blocks/about/__dignity-text/about____dignity-text.css);
-@import url(../blocks/about/__place-region/about__region-marker.css);
-@import url(../blocks/about/__dignity-marker/about__dignity-marker.css);
+@import url(../blocks/about/__list-element/about__list-element.css);
+@import url(../blocks/about/__list-element-text/about__list-element-text.css);
+@import url(../blocks/about/__list-element/_type/about__list-element_type_region.css);
+@import url(../blocks/about/__list-element/_type/about__list-element_type_dignity.css);

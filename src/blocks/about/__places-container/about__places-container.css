@@ -1,6 +1,14 @@
 .about__places-container {
-    margin: 60px 121px 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(594px, 1fr));
-    grid-gap: 10px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .about__places-container {
+    margin-top: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap: 60px;
+  }
 }
