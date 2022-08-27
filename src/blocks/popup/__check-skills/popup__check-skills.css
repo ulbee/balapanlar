@@ -1,5 +1,5 @@
-.popup__check-skills{
-padding: 0 0 19px 30px;
-display: flex;
-max-width: 536px;
+.popup__check-skills {
+  list-style-type: none;
+  display: flex;
+  max-width: 536px;
 }

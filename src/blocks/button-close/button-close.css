@@ -11,8 +11,8 @@
   outline: none;
   background-color: transparent;
   position: absolute;
-  right: 340px;
-  top: 180px;
+  right: 30px;
+  top: 30px;
 }
 .button-close:hover {
   transition: opacity 0.5s ease;

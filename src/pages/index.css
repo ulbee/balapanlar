@@ -5,6 +5,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
 @import url(../blocks/button/__enroll/button__enroll.css);
+@import url(../blocks/button/button.css);
 @import url(../blocks/header/__navigation-list/header__navigation-list.css);
 @import url(../blocks/header/__navigation-link/header__navigation-link.css);
 @import url(../blocks/about/about.css);
@@ -35,3 +36,6 @@
 @import url(../blocks/subtitle/_check-skills/subtitle_check-skills.css);
 @import url(../blocks/popup/__skills-container/popup__skills-container.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__check-container/popup__check-container.css);
+@import url(../blocks/button/_popup/button_popup.css);
+@import url(../blocks/title/_popup/title_popup.css);

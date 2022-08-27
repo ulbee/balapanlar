@@ -1,5 +1,6 @@
 .bullets-block {
   display: flex;
+  align-items: center;
   padding-right: 30px;
 }
 .bullets-block:last-of-type {
