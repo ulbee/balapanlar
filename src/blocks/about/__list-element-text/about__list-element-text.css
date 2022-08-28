@@ -1,0 +1,14 @@
+.about__list-element-text {
+  margin: 0 5px 13px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 680px){
+  .about__list-element-text {
+    margin: 0 0 13px;
+  }
+}

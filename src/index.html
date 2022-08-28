@@ -224,6 +224,47 @@
             <img class="popup__check-icons" src="<%=require('./images/check_mark.svg')%>">
             <p class="subtitle subtitle_check-skills">Работать в&nbsp;команде и&nbsp;создавать проекты от&nbsp;идеи до&nbsp;их&nbsp;публичной презентации</p>
           </li>
+    </div>
+  </section>
+  <section class="about">
+    <h2 class="about__header">О нас</h2>
+    <p class="about__text">Мы привозим лучшие практики неформального образования для тех, кто не может позволить своим детям полноценно развиваться</p>
+<!--    дальше предлагаю разбить два столбца просто на 2 дива и сверстать их гридом-->
+    <div class="about__places-container">
+      <div class="about__place">
+        <img class="about__place-img" src="<%=require('./images/children_yellow.png')%>" alt="Пять детей, играющих на газоне детской площадки, в левом нижнем углу надпись: Досуговый центр Уя">
+        <p class="about__place-description">— это место для общения, учёбы, встреч и досуга аульских детей. В наши летние школы мы тоже привозим самые разные практики, чтобы наши студенты могли попробовать то, что в их ауле/селе недоступно — это совершенно бесплатно</p>
+        <ul class="about__place-container">
+          <li class="about__list-element about__list-element_type_region">
+            <p class="about__list-element-text">Аул Икон-Халк, Карачаево-Черкесия</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Занятия весь год</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Углублённый подход к темам</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Небольшие группы</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Местные преподаватели, которые всегда на связи</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Постоянная площадка, где все могут приходить в любое время, общаться, учиться и учить, читать книги, смотреть кино и слушать интересные лекции</p></li>
+        </ul>
+      </div>
+      <div class="about__place">
+        <img class="about__place-img" src="<%=require('./images/children_orange.png')%>" alt="Много детей, сфотографированных издалека во дворе школы с белым фасадом. В левом нижнем углу надпись: Летние школы Балапанлар">
+        <p class="about__place-description">— это 12-дневная неформальная программа для детей в аулах и сёлах. Наша команда и преподаватели приезжают к местным детям и проводят с ними самые разные занятия: астрономия, математика, языки, йога, театр, музыка и др.</p>
+        <ul class="about__place-container">
+          <li class="about__list-element about__list-element_type_region">
+            <p class="about__list-element-text">Аул Икон-Халк, Карачаево-Черкесия</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Занятия только в каникулы</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Много разных занятий сразу</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Небольшие группы, но много участников сразу</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Преподаватели со всей России, вдохновляющие своим примером</p></li>
+          <li class="about__list-element about__list-element_type_dignity">
+            <p class="about__list-element-text">Компания совершенно разных талантливых людей, с которыми можно воплотить самую дерзкую идею</p></li>
         </ul>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
           <button type="button" class="button button_popup">Записаться</button>
@@ -232,7 +273,33 @@
       </div>
     
     </div>
-  </main>
+  </section>
+  <section class="partners">
+    <h2 class="partners__header">Наши партнеры</h2>
+    <div class="partners__container">
+      <button class="partners__button"><img class="partners__image partners__image_type_lectures" src="<%=require('./images/logo_lectures.png')%>" alt="Логотип партнера лекции без границ"></button>
+      <button class="partners__button"><img class="partners__image partners__image_type_gorizont" src="<%=require('./images/logo_gorizont.jpg')%>" alt="Логотип партнера открывая горизонты></button>
+      <button class="partners__button"><img class="partners__image partners__image_type_himbio" src="<%=require('./images/logo_him_bio.svg')%>" alt="Логотип партнера химбио"></button>
+    </div>
+  </section>
+  <section class="principles gallery">
+    <h2 class="principles__header page__text_size_m">Наши принципы</h2>
+    <div class="gallery__container">
+      <div class="principle__container gallery__item">
+        <img class="principle__image" src="<%=require('./images/children__plachka.png')%>" alt="Дети в классе">
+        <p class="principle__description page__text_size_l">Актуальные знания и навыки</p>
+      </div>
+      <div class="principle__container gallery__item">
+        <img class="principle__image" src="<%=require('./images/children__plachka_2.png')%>" alt="Игры для детей">
+        <p class="principle__description page__text_size_l">Равный доступ к образованию</p>
+      </div>
+      <div class="principle__container gallery__item">
+        <img class="principle__image" src="<%=require('./images/children__plachka_3.png')%>" alt="Эксперт">
+        <p class="principle__description page__text_size_l">Инвестируем в развитие местных специалистов и экпертов</p>
+      </div>
+    </div>
+  </section>
+</main>
 </body>
 
 </html>
