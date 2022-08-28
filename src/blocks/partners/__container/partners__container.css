@@ -1,9 +1,10 @@
 .partners__container {
     width: 885px;
     height: 239px;
+    box-sizing: border-box;
     border: 2px solid #EAF0FF;
     border-radius: 60px;
-    margin: 0 278px 120px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content:space-around;

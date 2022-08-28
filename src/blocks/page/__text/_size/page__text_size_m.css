@@ -2,6 +2,7 @@
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
+    letter-spacing: -1px;
 }
 
 /* Версия под планшет 744 в макете */
@@ -9,6 +10,7 @@
     .page__text_size_m {
         font-size: 30px;
         line-height: 37px;
+        letter-spacing: -0.5px;
     }
 }
 
