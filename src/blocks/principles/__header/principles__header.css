@@ -8,18 +8,13 @@
 /* Версия под планшет 744 в макете */
 @media screen and (max-width: 800px) {
     .principles__header {
-        position: absolute;
-        top: 120px;
-        left: 0;
-        
-        width: 100%;
+        padding: 0 0 40px;
     }
 }
 
 /* Версия под мобильные 320 в макете */
 @media screen and (max-width: 680px) {
     .principles__header {
-        position: static;
         padding: 0 0 30px;
     }
 }

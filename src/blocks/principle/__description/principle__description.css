@@ -6,13 +6,6 @@
     text-align: center;
 }
 
-/* Версия под планшет 744 в макете */
-@media screen and (max-width: 800px) {
-    .principle__description {
-        padding: 57px 0 0;
-    }
-}
-
 /* Версия под мобильные 320 в макете */
 @media screen and (max-width: 680px) {
     .principle__description {

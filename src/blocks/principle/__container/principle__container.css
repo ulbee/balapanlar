@@ -7,8 +7,12 @@
 /* Версия под планшет 744 в макете */
 @media screen and (max-width: 800px) {
     .principle__container {
-        height: 100vh;
+        padding-top: 160px;
         justify-content: center;
+    }
+
+    .principle__container:first-child {
+        padding-top: 0;
     }
 }
 
@@ -17,9 +21,5 @@
     .principle__container {
         height: 100%;
         padding-top: 60px;
-    }
-
-    .principle__container:first-child {
-        padding-top: 0;
     }
 }

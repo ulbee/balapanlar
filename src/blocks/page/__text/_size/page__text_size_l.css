@@ -6,7 +6,7 @@
 }
 
 /* Версия под планшет 744 в макете */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
     .page__text_size_l {
         font-size: 48px;
         line-height: 59px;
