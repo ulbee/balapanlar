@@ -1,0 +1,18 @@
+.about__place-container {
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .about__place-container {
+    margin-top: 41px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about__place-container {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
