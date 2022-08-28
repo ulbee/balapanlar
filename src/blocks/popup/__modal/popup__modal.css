@@ -5,6 +5,7 @@
   border-radius: 60px;
   position: relative;
   overflow: scroll;
+  z-index: 5;
 }
 @media screen and (max-width: 1000px) {
   .popup__modal {
