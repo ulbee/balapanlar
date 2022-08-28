@@ -1,0 +1,11 @@
+.bullets-block__caption {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: #2b2b2b;
+  padding-left: 10px;
+}

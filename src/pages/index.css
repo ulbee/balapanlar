@@ -11,7 +11,10 @@
 @import url(../blocks/header/__navigation-list/header__navigation-list.css);
 @import url(../blocks/header/__navigation-link/header__navigation-link.css);
 
+@import url(../blocks/button/button.css);
 @import url(../blocks/button/__enroll/button__enroll.css);
+@import url(../blocks/button/__enroll/button__enroll.css);
+@import url(../blocks/button/_popup/button_popup.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__header/about__header.css);
@@ -26,6 +29,34 @@
 @import url(../blocks/about/__list-element/_type/about__list-element_type_region.css);
 @import url(../blocks/about/__list-element/_type/about__list-element_type_dignity.css);
 @import url(../blocks/about/__region-name/about__region-name.css);
+@import url(../blocks/about/__dignity-text/about____dignity-text.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__modal/popup__modal.css);
+@import url(../blocks/popup/__bullets-block-container/popup__bullets-block-container.css);
+@import url(../blocks/popup/__studied-material-container/popup__studied-material-container.css);
+@import url(../blocks/popup/__check-skills/popup__check-skills.css);
+@import url(../blocks/popup/__check-icons/popup__check-icons.css);
+@import url(../blocks/popup/__skills-container/popup__skills-container.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__check-container/popup__check-container.css);
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/title/_popup/title_popup.css);
+
+@import url(../blocks/bullets-block/__caption/bullets-block__caption.css);
+@import url(../blocks/bullets-block/__icon-user/bullets-block__icon-user.css);
+@import url(../blocks/bullets-block/bullets-block.css);
+
+@import url(../blocks/studied-material/studied-material.css);
+@import url(../blocks/studied-material/__info/studied-material__info.css);
+
+@import url(../blocks/button-close/button-close.css);
+
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/_popup/subtitle_popup.css);
+@import url(../blocks/subtitle/_popup/subtitle_popup.css);
+@import url(../blocks/subtitle/_check-skills/subtitle_check-skills.css);
 
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__header/partners__header.css);
