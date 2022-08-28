@@ -1,3 +1,4 @@
 .about__place-img {
-    max-width: 595px;
+    width: 100%;
+    display: block;
 }

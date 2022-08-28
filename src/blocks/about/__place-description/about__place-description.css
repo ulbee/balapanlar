@@ -1,10 +1,28 @@
 .about__place-description {
-    font-family: Montserrat, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: -0.5px;
-    max-width: 544px;
-    margin: auto;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.5px;
+  margin: 35px 35px 0;
+  max-width: 100%;
+}
+
+.about__place-description:nth-child(2n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .about__place-description {
+    margin: 40px 0 ;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about__place-description {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 30px 0 ;
+  }
 }
