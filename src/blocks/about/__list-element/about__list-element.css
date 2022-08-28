@@ -1,3 +1,7 @@
 .about__list-element {
- margin-left: 35px;
+  margin-left: 35px;
+}
+
+.about__list-element:last-of-type {
+  margin-bottom: 0;
 }

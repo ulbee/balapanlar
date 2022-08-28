@@ -14,3 +14,10 @@
     padding: 80px 75px;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .about{
+    border-radius: 50px;
+    padding: 30px 15px;
+  }
+}
