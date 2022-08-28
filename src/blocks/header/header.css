@@ -1,7 +1,8 @@
 .header {
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  max-width: 1440px;
+  width: 100%;
+  height: 120px;
 }

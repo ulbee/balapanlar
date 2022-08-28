@@ -1,4 +1,7 @@
 .header__logo_scroll {
-  max-width: 192px;
-  max-height: 36px;
+  background-image: url(../../../../images/logo_balanpanlar_2.png);
+  width: 192px;
+  height: 36px;
+  margin: 22px 157px 22px 20px;
+  background-size: 100%;
 }

@@ -5,6 +5,8 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration: none;
+  transition: 0.2s linear;
+  cursor: pointer;
 }
 .header__navigation-link:hover {
   color: rgba(0, 0, 0, 0.6);

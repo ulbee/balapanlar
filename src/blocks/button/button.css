@@ -1,13 +1,15 @@
 .button {
-    box-sizing: border-box;
-    padding: 0;
-    border: none;
-    background: #252525;
-    font-family: "Montserrat";
-    border-radius: 50px;
-    font-weight: 600;
-    color: #ffff;
-  }
-  .button:hover {
-    background: rgba(0, 0, 0, 0.7);
-  }
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  background: #252525;
+  font-family: "Montserrat";
+  border-radius: 50px;
+  font-weight: 600;
+  color: #ffff;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+.button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}

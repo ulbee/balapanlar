@@ -1,0 +1,5 @@
+.header_scroll {
+  height: 80px;
+  position: fixed;
+  transition: visibility 5s, opacity 0.5s;
+}
