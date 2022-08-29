@@ -11,3 +11,12 @@
 .header__navigation-link:hover {
   color: rgba(0, 0, 0, 0.6);
 }
+
+@media screen and (max-width: 800px) {
+  .header__navigation-link {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 290px;
+  }
+}

@@ -3,3 +3,13 @@
   margin: 0;
   padding: 0 126px 0 0;
 }
+
+@media screen and (max-width: 800px) {
+  .header__navigation {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 60px 0 60px 0;
+    align-items: center;
+    width: 290px;
+  }
+}

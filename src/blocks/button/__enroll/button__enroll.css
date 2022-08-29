@@ -3,3 +3,15 @@
   height: 52px;
   margin-left: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .button__enroll {
+    width: 395px;
+    height: 104px;
+    margin: 0;
+    margin-bottom: 83px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
