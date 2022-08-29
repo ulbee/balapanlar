@@ -15,3 +15,14 @@
     line-height: 34px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .button__enroll {
+    width: 224px;
+    height: 52px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

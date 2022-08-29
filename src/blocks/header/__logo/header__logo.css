@@ -10,8 +10,18 @@
 
 @media screen and (max-width: 800px) {
   .header__logo {
-    width: 150px;
-    height: 143px;
-    margin: 25px 0 0 0;
+    background-image: url(../../../images/logo_balanpanlar_2.svg);
+    width: 165px;
+    height: 30px;
+    margin: 0 0 0 75px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__logo {
+    background-image: url(../../../images/logo_balanpanlar_2.svg);
+    width: 100px;
+    height: 18px;
+    margin: 0 0 0 15px;
   }
 }

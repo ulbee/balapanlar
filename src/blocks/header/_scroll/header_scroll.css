@@ -3,7 +3,7 @@
   max-width: 1440px;
   position: fixed;
   top: 0;
-  transition: visibility 5s, opacity 0.5s;
+  transition: 0.3s ease;
 }
 
 @media screen and (max-width: 800px) {
@@ -12,6 +12,13 @@
     height: 80px;
     border-radius: 0;
     margin: auto;
-    align-items: flex-start;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_scroll {
+    width: 320px;
+    height: 42px;
   }
 }

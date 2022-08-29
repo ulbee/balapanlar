@@ -6,11 +6,15 @@
   padding: 0;
 }
 
-
 @media screen and (max-width: 800px) {
-  .header__navigation-list{
+  .header__navigation-list {
     padding-right: 0;
     padding-bottom: 30px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header__navigation-list {
+    padding-bottom: 20px;
   }
 }
