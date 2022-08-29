@@ -1,3 +1,10 @@
 .popup__bullets-block-container {
   display: flex;
 }
+
+@media screen and (max-width: 800px) {
+  .popup__bullets-block-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -1,9 +1,8 @@
 .popup__check-container {
   margin: 0;
   padding: 0;
-  min-width: 584px;
+  min-width: 270px;
   max-width: 1200px;
-  /* padding-left: 30px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(282px, 536px));
   column-gap: 20px;

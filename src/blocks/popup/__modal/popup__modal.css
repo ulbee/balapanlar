@@ -3,6 +3,18 @@
   background: #fff;
   border: 1px solid rgba(234, 240, 255, 1);
   border-radius: 60px;
-    /* overflow: scroll;  */
-    /* z-index: 5; */
+  max-width: 1200px;  
+  min-width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__modal {
+    border-radius: 60px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .popup__modal {
+    border-radius: 30px;
+  }
 }

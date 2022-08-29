@@ -14,8 +14,26 @@
   
   cursor: pointer;
 }
+
 .button-close:hover {
   transition: opacity 0.5s ease;
   opacity: 0.4;
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 800px) {
+  .button-close {
+    background: url(../../images/close_white.svg) no-repeat;
+    top: -35px;
+    right: 0;
+  }
+}
+  
+@media screen and (max-width: 680px) {
+  .button-close {
+    top: -35px;
+    right: 0;
+  }
+}
+

@@ -148,12 +148,12 @@
     </section>
 
     <!-- popup_opened -->
-    <div class="popup popup__courses popup_opened">
+    <div id="course-python" class="popup">
       <div class="popup__modal">
         <button type="button" class="button-close"></button>
         <div class="popup__body popup__body_type_courses">
           <!-- TODO нужен ли блок title? -->
-          <h2 class="page__text_size_m title title_popup">Python Start</h2>
+          <h2 class="page__text_size_m title">Python Start</h2>
           <div class="popup__bullets-block-container">
             <div class="bullets-block">
               <img class="bullets-block__icon-user" src="<%=require('../src/images/user.svg')%>" alt="иконка в виде человечка">
@@ -220,18 +220,17 @@
         </div>
       </div>
     </div>
-    <div class="popup popup__partners popup_type_lectures">
+    <div id="partner-lecturers" class="popup">
       <div class="popup__modal">
         <button type="button" class="button-close"></button>
         <div class="popup__body popup__body_type_partners">
           <img class="partners__image partners__image_type_lectures" src="<%=require('./images/logo_lectures.png')%>" alt="Логотип партнера лекции без границ">
           <p class="popup__text">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</p>
-          <!-- TODO нужен ли класс button__partners-website? -->
-          <button class="button button__partners-website button_size_s">Сайт партнёра</button> 
+          <button class="button button_size_s">Сайт партнёра</button> 
         </div>     
       </div>
     </div>
-    <div class="popup popup__partners popup_type_gorizont">
+    <div id="partner-horizont" class="popup">
       <div class="popup__modal">
         <button type="button" class="button-close"></button>
         <div class="popup__body popup__body_type_partners">
@@ -240,19 +239,17 @@
             <p class="popup__paragraph">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
             <p class="popup__paragraph">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
           </div>
-          <!-- TODO нужен ли класс button__partners-website? -->
-          <button class="button button__partners-website button_size_s">Сайт партнёра</button> 
+          <button class="button button_size_s">Сайт партнёра</button> 
         </div>     
       </div>
     </div>
-    <div class="popup popup__partners popup_type_himbio">
+    <div id="partner-himbio" class="popup">
       <div class="popup__modal">
         <button type="button" class="button-close"></button>
         <div class="popup__body popup__body_type_partners">
           <img class="partners__image partners__image_type_himbio"  src="<%=require('./images/logo_him_bio.svg')%>" alt="Логотип партнера химбио">
           <p class="popup__text">ХимБио — онлайн-школа и выездные программы для детей и подростков со всего мира! Занимаются здесь химией, биологией и физикой, много практики и опытов. Летом детей и подростков ждут экспедиции, а во время учебного года — курсы по самым разным направлениям.</p>
-          <!-- TODO нужен ли класс button__partners-website? -->
-          <button class="button button__partners-website button_size_s">Сайт партнёра</button> 
+          <button class="button button_size_s">Сайт партнёра</button> 
         </div>     
       </div>
     </div>

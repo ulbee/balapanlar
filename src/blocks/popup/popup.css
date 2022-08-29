@@ -10,4 +10,17 @@
   top: 0;
   left: 0;
   overflow: hidden;
+  padding: 120px;
+}
+
+@media screen and (max-width: 800px) {
+  .popup {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .popup {
+    padding: 10px;
+  }
 }
