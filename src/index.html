@@ -11,22 +11,27 @@
 </head>
 
 <body class="page">
-  <header class="header">
-    <img class="header__logo" src="<%=require('./images/logo_balanpanlar_1.png')%>" alt="логотип">
-    <nav>
-      <ul class="header__navigation">
-        <li class="header__navigation-list"><a class="header__navigation-link" href="#">Наши курсы</a></li>
-        <li class="header__navigation-list"><a class="header__navigation-link" href="#">О нас</a></li>
-        <li class="header__navigation-list"><a class="header__navigation-link" href="#">Команда</a></li>
-        <li class="header__navigation-list"><a class="header__navigation-link" href="#">Как нас найти</a></li>
-        <li class="header__navigation-list"><a class="header__navigation-link" href="#">Поддержать проект</a></li>
-      </ul>
-    </nav>
-    <button type="button" class="button button__enroll">Записаться на курсы</button>
-  </header>
-  <main>
-    <section class="lead">
-      <h1>Досуг и курсы для детей
+  <!-- header_scroll -->
+<header class="header">
+<!-- header__logo_scroll -->
+  <div class="header__logo"></div>
+  <nav>
+    <ul class="header__navigation">
+      <li class="header__navigation-list"><a class = "header__navigation-link" href="#">Наши курсы</a></li>
+      <li class="header__navigation-list"><a class = "header__navigation-link" href="#">О нас</a></li>
+      <li class="header__navigation-list"><a class = "header__navigation-link" href="#">Команда</a></li>
+      <li class="header__navigation-list"><a class = "header__navigation-link" href="https://t.me/balapanlar
+        ">Как нас найти</a></li>
+      <li class="header__navigation-list"><a class = "header__navigation-link" href="#">Поддержать проект</a></li>
+    </ul>
+  </nav>
+ <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
+    <button class="button button__enroll">Записаться на курсы</button>
+  </form>
+</header>
+<main>
+  <section class="lead">
+    <h1>Досуг и курсы для детей
       в аулах и сёлах</h1>
       <button class="button button__enroll_place_lead"></button>
       <div class="submit__container">
@@ -144,6 +149,7 @@
       </div>
     </div>
   </section>
+
   <!-- popup_opened -->
   <div class="popup popup_courses">
     <div class="popup__modal">

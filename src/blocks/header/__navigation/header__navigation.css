@@ -1,6 +1,5 @@
 .header__navigation {
   display: flex;
   margin: 0;
-  padding-left: 248px;
-  
+  padding: 0 126px 0 0;
 }
