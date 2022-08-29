@@ -17,6 +17,7 @@
 @import url(../blocks/button/__enroll/button__enroll.css);
 @import url(../blocks/button/__enroll/button__enroll.css);
 @import url(../blocks/button/_popup/button_popup.css);
+@import url(../blocks/button/__partners-website/button__partners-website.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__header/about__header.css);
@@ -41,6 +42,12 @@
 @import url(../blocks/popup/__skills-container/popup__skills-container.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__check-container/popup__check-container.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__partners/popup__partners.css);
+@import url(../blocks/popup/__body/popup__body.css);
+@import url(../blocks/popup/__body/_type/popup__body_type_partners.css);
+@import url(../blocks/popup/__body/_type/popup__body_type_courses.css);
+@import url(../blocks/popup/__courses/popup__courses.css);
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_popup/title_popup.css);

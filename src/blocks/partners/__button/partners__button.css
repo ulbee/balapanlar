@@ -5,3 +5,7 @@
     cursor: pointer;
     padding: 0;
 }
+
+.partners__button:hover {
+    opacity: .7;
+}
