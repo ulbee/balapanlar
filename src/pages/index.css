@@ -16,3 +16,15 @@
 @import url(../blocks/about/__place-description/about__place-description.css);
 @import url(../blocks/about/__region-name/about__region-name.css);
 @import url(../blocks/about/__dignity-text/about____dignity-text.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__container/lead__container.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__button-courses/lead__button-courses.css);
+@import url(../blocks/lead/__button-courses-text/lead__button-courses-text.css);
+@import url(../blocks/lead/__button-courses-form/lead__button-courses-form.css);
+@import url(../blocks/lead/__contacts-container/lead__contacts-container.css);
+@import url(../blocks/lead/__contacts-icon/lead__contacts-icon.css);
+@import url(../blocks/lead/__contacts-info/lead__contacts-info.css);
+@import url(../blocks/lead/__button-contacts-form/lead__button-contacts-form.css);
+@import url(../blocks/lead/__button-contacts/lead__button-contacts.css);
+@import url(../blocks/lead/__button-contacts-text/lead__button-contacts-text.css);

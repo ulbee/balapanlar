@@ -25,51 +25,22 @@
 </header>
 <main>
   <section class="lead">
-    <h1>Досуг и курсы для детей
-      в аулах и сёлах</h1>
-    <button class="button button__enroll_place_lead"></button>
-    <div class="submit__container">
-      <div class="submit__description-container">
-        <img class="submit__telegram-image" src="<%=require('./images/telegram.svg')%>" alt="иконка телеграм.">
-        <p class="submit__description-text">Следите за последними анонсами и событиями “Уя” в нашем Telegram канале</p>
+    <div class="lead__container">
+      <h1 class="lead__title">Досуг и курсы для детей в аулах и сёлах</h1>
+      <form action="https://www.google.ru/" class="lead__button-courses-form" target="_blank">
+       <button class="lead__button-courses">
+          <p class="lead__button-courses-text">Записаться на курсы</p>
+        </button>
+      </form>
+      <div class="lead__contacts-container">
+        <div class="lead__contacts-icon"></div>
+        <p class="lead__contacts-info">Следите за посленими анонсами и событиями «Уя» в нашем Telegram канале</p>
+        <form action="https://www.google.ru/" class="lead__button-contacts-form" target="_blank">
+          <button class="lead__button-contacts">
+             <p class="lead__button-contacts-text">Подписаться</p>
+           </button>
+         </form>
       </div>
-      <button class="button button__submit-telegram">Подписаться</button>
-    </div>
-  </section>
-  <section class="lead-description">
-    <p class="lead-description__text">
-      Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность раскрыть свои таланты, получить хорошие современные знания в ауле, и стать успешным и счастливым взрослым.
-    </p>
-  </section>
-  <section class="courses">
-    <h2 class="courses__header">Наши курсы</h2>
-    <div class="courses__programming">
-      <h3 class="courses__programming-header">Программирование</h3>
-      <div class="courses__programming-container">
-        <ul class="courses__programming-list">
-<!--          тут, вроде, в каждый элемент списка нужно закинуть див с вёрсткой карточки-->
-          <li class="courses__programming-courses-card">
-            <div class="courses__programming-course-container">
-
-            </div>
-          </li>
-          <li class="courses__programming-courses-card">
-            <div class="courses__programming-course-container">
-
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="courses__other-grid-container">
-      <ul class="courses__other-list">
-        <li class="courses__other-element"></li>
-        <li class="courses__other-element"></li>
-        <li class="courses__other-element"></li>
-      </ul>
-    </div>
-    <div class="courses__price">
-
     </div>
   </section>
   <section class="about">
