@@ -13,13 +13,14 @@ document.onscroll = function () {
   let scroll = window.scrollY;
 
   if (scroll > headerHeight) {
+    if (header.classList.contains('header_burger-menu-open')) {
+      header.querySelector('.header__burger').click();
+    }
     header.classList.add("header_scroll");
     logo.classList.add("header__logo_scroll");
-    document.body.style.paddingTop = headerHeight + "px";
   } else {
     header.classList.remove("header_scroll");
     logo.classList.remove("header__logo_scroll");
-    document.body.removeAttribute("style");
   }
 };
 
