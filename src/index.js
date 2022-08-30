@@ -30,6 +30,10 @@ burgerButton.addEventListener("click", () => {
   header.classList.toggle("header_burger-menu-open");
 });
 
+/* window.addEventListener('wheel',()=>{
+  header.classList.toggle("header_burger-menu-open");
+})
+ */
 /**
  * Настройка анимации для галереи
  */

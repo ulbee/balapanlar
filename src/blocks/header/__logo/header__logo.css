@@ -22,3 +22,10 @@
     margin: 0 0 0 15px;
   }
 }
+
+.header_burger-menu-open .header__logo {
+  background: url(../../../images/logo_balanpanlar_1.svg) no-repeat;
+  width: 105px;
+  height: 100px;
+  margin: 10px 0;
+}
