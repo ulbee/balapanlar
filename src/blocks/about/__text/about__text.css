@@ -1,9 +1,27 @@
 .about__text {
-    margin-left: 120px;
-    font-family: Montserrat, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -1px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .about__text {
+    /* margin-left: 120px;     */
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.5px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about__text {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.5px;
+    margin-top: 20px;
+  }
 }

@@ -1,8 +1,9 @@
 .bullets-block {
   display: flex;
   align-items: center;
-  margin-right: 30px;
+
+  padding-right: 30px;
 }
 .bullets-block:last-of-type {
-  margin-right: 0;
+  padding-right: 0;
 }

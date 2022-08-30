@@ -1,0 +1,15 @@
+.subtitle {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 680px) {
+  .subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

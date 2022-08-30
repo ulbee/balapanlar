@@ -2,4 +2,21 @@
     font-size: 60px;
     font-weight: 600;
     line-height: 68px;
+    letter-spacing: -1px;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 1000px) {
+    .page__text_size_l {
+        font-size: 48px;
+        line-height: 59px;
+    }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+    .page__text_size_l {
+        font-size: 36px;
+        line-height: 44px;
+    }
 }

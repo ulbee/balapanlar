@@ -1,0 +1,9 @@
+.header_burger-menu-open {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 50px 50px;
+  padding-top: 25px;
+  position: fixed;
+  top: 0;
+}

@@ -1,0 +1,24 @@
+.popup__close-btn {
+  background: none;
+  border: none;
+  outline: none;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  
+  cursor: pointer;
+}
+
+.popup__close-btn:hover {
+  transition: opacity 0.5s ease;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__close-btn {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,15 +1,29 @@
 .button__enroll {
-  border: none;
-  padding: 0;
-  width: 224px;
-  height: 52px;
-  background: #252525;
-  border-radius: 50px;
-  font-family: "Montserrat";
-  font-weight: 600;
-  color: #ffff;
+
+
   margin-left: auto;
+  padding: 16px 22px;
 }
-.button__enroll:hover {
-  background: rgba(0, 0, 0, 0.7);
+
+@media screen and (max-width: 800px) {
+  .button__enroll {
+    width: 395px;
+    height: 104px;
+    margin: 0;
+    margin-bottom: 83px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button__enroll {
+    width: 224px;
+    height: 52px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

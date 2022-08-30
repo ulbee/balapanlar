@@ -1,0 +1,20 @@
+.principles__header {
+    padding: 0 0 80px;
+    margin: 0;
+
+    text-align: center;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+    .principles__header {
+        padding: 0 0 40px;
+    }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+    .principles__header {
+        padding: 0 0 30px;
+    }
+}
