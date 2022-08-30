@@ -1,66 +1,84 @@
 <!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Балапанлар</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="./src/pages/index.css" /> -->
+    <title>Балапанлар</title>
 
-<body class="page">
-  <!-- header_scroll -->
-  <header class="header">
-    <!-- header__logo_scroll -->
-    <div class="header__logo"></div>
-    <nav>
-      <ul class="header__navigation">
+  </head>
+
+  <body class="page">
+    <!-- header_scroll -->
+    <header class="header">
+      <!-- header__logo_scroll -->
+      <div class="header__logo"></div>
+      <div class="header__container">
+        <nav>
+          <!-- header__navigation_scroll -->
+          <ul class="header__navigation">
         <li class="header__navigation-list"><a class = "header__navigation-link" href="#courses">Наши курсы</a></li>
         <li class="header__navigation-list"><a class = "header__navigation-link" href="#about">О нас</a></li>
         <li class="header__navigation-list"><a class = "header__navigation-link" href="#partners">Команда</a></li>
         <li class="header__navigation-list"><a class = "header__navigation-link" href="https://t.me/balapanlar
-          ">Как нас найти</a></li>
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="#">Поддержать проект</a></li>
-      </ul>
-    </nav>
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
-      <button class="button button_size_xs button__enroll">Записаться на курсы</button>
-    </form>
-  </header>
-  <main>
-    <section class="lead" id="lead">
-      <h1>Досуг и курсы для детей
-      в аулах и сёлах</h1>
-      <button class="button button__enroll_place_lead"></button>
-      <div class="submit__container">
-        <div class="submit__description-container">
-          <img class="submit__telegram-image" src="<%=require('./images/telegram.svg')%>" alt="иконка телеграм.">
-          <p class="submit__description-text">Следите за последними анонсами и событиями “Уя” в нашем Telegram канале</p>
-        </div>
-        <button class="button button__submit-telegram">Подписаться</button>
+        ">Как нас найти</a></li>
+            <li class="header__navigation-list"><a class="header__navigation-link" href="#">Поддержать проект</a></li>
+          </ul>
+        </nav>
+        <form
+          action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
+          <!-- button__enroll_scroll -->
+          <button class="button button__enroll">Записаться на курсы</button>
+        </form>
       </div>
-    </section>
-    <section class="lead-description">
-      <p class="lead-description__text">
-        Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность раскрыть свои таланты, получить хорошие современные знания в ауле, и стать успешным и счастливым взрослым.
-      </p>
-    </section>
-    <section class="courses" id="courses">
-      <h2 class="courses__header">Наши курсы</h2>
-      <div class="courses__programming">
-        <h3 class="courses__programming-header">Программирование</h3>
-        <div class="courses__programming-container">
-          <ul class="courses__programming-list">
-            <!--          тут, вроде, в каждый элемент списка нужно закинуть див с вёрсткой карточки-->
-            <li class="courses__programming-courses-card">
-              <div class="courses__programming-course-container">
+      <button class="header__burger"></button>
+    </header>
+    <main>
+      <section class="lead">
+        <h1>Досуг и курсы для детей
+          в аулах и сёлах</h1>
+        <button class="button button__enroll_place_lead"></button>
+        <div class="submit__container">
+          <div class="submit__description-container">
+            <img class="submit__telegram-image" src="<%=require('./images/telegram.svg')%>" alt="иконка телеграм.">
+            <p class="submit__description-text">Следите за последними анонсами и событиями “Уя” в нашем Telegram канале
+            </p>
+          </div>
+          <button class="button button__submit-telegram">Подписаться</button>
+        </div>
+      </section>
+      <section class="lead-description">
+        <p class="lead-description__text">
+          Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность раскрыть свои таланты, получить хорошие
+          современные знания в ауле, и стать успешным и счастливым взрослым.
+        </p>
+      </section>
+      <section class="courses">
+        <h2 class="courses__header">Наши курсы</h2>
+        <div class="courses__programming">
+          <h3 class="courses__programming-header">Программирование</h3>
+          <div class="courses__programming-container">
+            <ul class="courses__programming-list">
+              <!--          тут, вроде, в каждый элемент списка нужно закинуть див с вёрсткой карточки-->
+              <li class="courses__programming-courses-card">
+                <div class="courses__programming-course-container">
+                </div>
+              </li>
+              <li class="courses__programming-courses-card">
+                <div class="courses__programming-course-container">
 
-              </div>
-            </li>
-            <li class="courses__programming-courses-card">
-              <div class="courses__programming-course-container">
-
-              </div>
-            </li>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="courses__other-grid-container">
+          <ul class="courses__other-list">
+            <li class="courses__other-element"></li>
+            <li class="courses__other-element"></li>
+            <li class="courses__other-element"></li>
           </ul>
         </div>
       </div>
