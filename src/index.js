@@ -12,7 +12,6 @@ const headerHeight = header.clientHeight;
 document.onscroll = function () {
   let scroll = window.scrollY;
 
-  console.log('headerHeight', headerHeight);
   if (scroll > headerHeight) {
     header.classList.add("header_scroll");
     logo.classList.add("header__logo_scroll");
