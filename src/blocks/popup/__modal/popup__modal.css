@@ -1,25 +1,20 @@
 .popup__modal {
-  background: #ffffff;
-  width: 1200px;
-  height: 684px;
-  border-radius: 60px;
   position: relative;
-  overflow: scroll;
-  z-index: 5;
+  background: #fff;
+  border: 1px solid rgba(234, 240, 255, 1);
+  border-radius: 60px;
+  max-width: 1200px;  
+  min-width: 300px;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 800px) {
   .popup__modal {
-    width: 594px;
-    height: 1175px;
-    border-radius: 50px;
-    
+    border-radius: 60px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   .popup__modal {
-    width: 300px;
-    height: 1452px;
     border-radius: 30px;
   }
 }

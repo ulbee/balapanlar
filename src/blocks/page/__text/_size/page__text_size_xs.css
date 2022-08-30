@@ -1,0 +1,22 @@
+.page__text_size_xs {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+  .page__text_size_m {
+      font-size: 30px;
+      line-height: 37px;
+      letter-spacing: -0.5px;
+  }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+  .page__text_size_m {
+      font-size: 24px;
+      line-height: 29px;
+  }
+}
