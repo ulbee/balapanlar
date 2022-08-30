@@ -1,4 +1,4 @@
-.courses__price-list-item {
+.courses__card-list-item {
   list-style: none;
   padding: 0 0 20px 30px;
   margin: 0;  
@@ -6,4 +6,7 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 22px;
+
+  background: url(../../../images/check_mark.svg) no-repeat 0 0;
+  background-size: 18px 18px;
 }

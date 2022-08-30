@@ -1,7 +1,7 @@
 .bullets-block {
   display: flex;
   align-items: center;
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
 .bullets-block:last-of-type {
   padding-right: 0;
