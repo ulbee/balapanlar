@@ -3,7 +3,13 @@
     /* Для подсчета высоты: 120px - отступы самого попапа и 30px - паддинга внутри popup__modal */
     max-height: calc(100vh - 2*120px - 2*30px);
 
-    overflow: scroll;
+    overflow-y: auto;
+    scrollbar-width: none;
+    scrollbar-color: transparent;
+}
+
+.popup__body::-webkit-scrollbar {
+  display: none;
 }
 
 @media screen and (max-width: 800px) {
