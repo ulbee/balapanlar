@@ -1,0 +1,11 @@
+.courses__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  background: #fff;
+  border-radius: 60px;
+
+  flex: 1;
+  padding: 30px;
+}

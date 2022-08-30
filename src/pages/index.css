@@ -83,3 +83,20 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__container/gallery__container.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
+
+@import url(../blocks/courses/courses.css);
+@import url(../blocks/courses/__programming/courses__programming.css);
+@import url(../blocks/courses/__programming-header/courses__programming-header.css);
+@import url(../blocks/courses/__programming-description/courses__programming-description.css);
+@import url(../blocks/courses/__programming-container/courses__programming-container.css);
+@import url(../blocks/courses/__card/courses__card.css);
+@import url(../blocks/courses/__card-header/courses__card-header.css);
+@import url(../blocks/courses/__card-tabs/courses__card-tabs.css);
+@import url(../blocks/courses/__card-text/courses__card-text.css);
+@import url(../blocks/courses/__card-list/courses__card-list.css);
+@import url(../blocks/courses/__card-button/courses__card-button.css);
+@import url(../blocks/courses/__card-buttons/courses__card-buttons.css);
+@import url(../blocks/courses/__container/courses__container.css);
+@import url(../blocks/courses/__price/courses__price.css);
+@import url(../blocks/courses/__price-text/courses__price-text.css);
+@import url(../blocks/courses/__price-header/courses__price-header.css);

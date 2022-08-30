@@ -1,0 +1,5 @@
+.courses__programming-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

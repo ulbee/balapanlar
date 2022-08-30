@@ -1,0 +1,5 @@
+.courses__price {
+  background: rgba(208, 221, 255, 1);
+
+  flex-direction: row;
+}
