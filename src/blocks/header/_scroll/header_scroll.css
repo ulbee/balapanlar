@@ -9,7 +9,7 @@
   margin: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1110px) {
   .header_scroll {
     height: 80px;
     border-radius: 0;

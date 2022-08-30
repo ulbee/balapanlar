@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1110px) {
   .header__container {
     display: none;
   }

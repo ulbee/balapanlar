@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1110px) {
   .header__navigation-list {
     padding-right: 0;
     padding-bottom: 30px;
