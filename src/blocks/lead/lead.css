@@ -1,3 +1,5 @@
 .lead {
     width: 100%;
+
+    background: linear-gradient(#fff 0%, #fff 50%, transparent 100%);
 }

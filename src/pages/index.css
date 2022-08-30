@@ -51,7 +51,6 @@
 @import url(../blocks/lead/__contacts-info/lead__contacts-info.css);
 @import url(../blocks/lead/__button-contacts-form/lead__button-contacts-form.css);
 @import url(../blocks/lead/__button-contacts/lead__button-contacts.css);
-@import url(../blocks/lead/__button-contacts-text/lead__button-contacts-text.css);
 
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__text/description__text.css);
@@ -78,7 +77,6 @@
 @import url(../blocks/courses/__studied-material-container/courses__studied-material-container.css);
 @import url(../blocks/courses/__item-subtitle/courses__item-subtitle.css);
 @import url(../blocks/button/__get-course-form/button__get-course-form.css);
-@import url(../blocks/button/__get-course-text/button__get-course-text.css);
 @import url(../blocks/button/__get-course/button__get-course.css);
 @import url(../blocks/courses/__programming-buttons-container/courses__programming-buttons-container.css);
 @import url(../blocks/courses/__show-all-skills/courses__show-all-skills.css);
