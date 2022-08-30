@@ -17,6 +17,7 @@
 
 .header__burger::before,
 .header__burger::after {
+  transition: 0.5s ease;
   content: "";
   height: 2px;
   width: 100%;
@@ -40,6 +41,7 @@
 }
 
 .header_burger-menu-open .header__burger {
+  transition: 0.5s ease;
   height: 20px;
   width: 20px;
 }
