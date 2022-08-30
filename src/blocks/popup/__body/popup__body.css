@@ -1,3 +1,21 @@
 .popup__body {
     position: relative;
+    /* Для подсчета высоты: 120px - отступы самого попапа и 30px - паддинга внутри popup__modal */
+    max-height: calc(100vh - 2*120px - 2*30px);
+
+    overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__body {
+    /* Для подсчета высоты: 95px - отступы самого попапа и 30px - паддинга внутри popup__modal */
+    max-height: calc(100vh - 2*95px - 2*30px);
+  }
+}
+  
+@media screen and (max-width: 680px) {
+  .popup__body {
+    /* Для подсчета высоты: 40px - отступы самого попапа и 15px - паддинга внутри popup__modal */
+    max-height: calc(100vh - 2*40px - 2*15px);
+  }
 }

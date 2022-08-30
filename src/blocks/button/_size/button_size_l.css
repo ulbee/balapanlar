@@ -1,0 +1,18 @@
+.button_size_l {
+  margin: 0;
+  padding: 35px 45px;
+  
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+  .button_size_l {
+    padding: 16px 22px;
+  
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

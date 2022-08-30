@@ -1,4 +1,7 @@
 .partners__button {
+    width: 295px;
+    height: 239px;
+
     border: none;
     box-shadow: none;
     background-color: transparent;
@@ -7,5 +10,16 @@
 }
 
 .partners__button:hover {
-    opacity: .7;
+  transition: opacity 0.5s ease;
+  opacity: 0.4;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+    .partners__button {
+        width: 290px;
+        height: 200px;
+        border: 1px solid rgba(234, 240, 255, 1);
+        border-radius: 30px;
+    }
 }

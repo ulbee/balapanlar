@@ -1,12 +1,12 @@
 .button {
-  box-sizing: border-box;
   padding: 0;
+  box-sizing: border-box;
   border: none;
-  background: #252525;
-  font-family: "Montserrat";
   border-radius: 50px;
-  font-weight: 600;
+  
+  background: #252525;
   color: #ffff;
+  
   transition: 0.2s linear;
   cursor: pointer;
 }

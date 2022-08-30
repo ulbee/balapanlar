@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 800px) {
   .about__text {
-    margin-left: 120px;    
+    /* margin-left: 120px;     */
     font-size: 30px;
     line-height: 37px;
     letter-spacing: -0.5px;
