@@ -3,6 +3,7 @@
     padding: 30px;
     display: flex;
     flex-direction: column;
+    flex: 1;
     border-radius: 60px;
     box-sizing: border-box;
     position: relative;
