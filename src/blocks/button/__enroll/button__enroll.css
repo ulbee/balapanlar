@@ -2,6 +2,7 @@
   width: 224px;
   height: 52px;
   margin-left: auto;
+  padding: 16px 22px;
 }
 
 @media screen and (max-width: 800px) {
