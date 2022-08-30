@@ -1,0 +1,13 @@
+.popup__body_type_courses {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__body_type_courses {
+    padding: 15px;
+    gap: 20px;
+  }
+}

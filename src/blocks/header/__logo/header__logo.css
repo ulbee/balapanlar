@@ -1,8 +1,6 @@
 .header__logo {
-  box-sizing: border-box;
-  background-image: url(../../../images/logo_balanpanlar_1.svg);
-  background-repeat: no-repeat;
-  width: 101px;
+  background: url(../../../images/logo_balanpanlar_1.svg) no-repeat;
+  width: 100px;
   height: 100px;
   background-size: 100%;
 }

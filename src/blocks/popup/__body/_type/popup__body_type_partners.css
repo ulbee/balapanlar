@@ -1,0 +1,22 @@
+.popup__body_type_partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__body_type_partners {
+    gap: 30px;
+    padding: 30px;
+  }
+}
+  
+@media screen and (max-width: 680px) {
+  .popup__body_type_partners {
+    padding: 30px 15px;
+  }
+}
+

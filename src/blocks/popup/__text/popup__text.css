@@ -1,0 +1,8 @@
+.popup__text {
+    max-width: 805px;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
