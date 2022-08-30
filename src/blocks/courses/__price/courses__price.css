@@ -3,4 +3,14 @@
 
   flex-direction: row;
   gap: 40px;
+
+  margin-top: 10px;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 1100px) {
+  .courses__price {
+    flex-direction: column;
+    gap: 30px;
+  }
 }

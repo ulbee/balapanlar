@@ -1,0 +1,10 @@
+.courses__price-button {
+  display: none;  
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 1100px) {
+  .courses__price-button {
+    display: block;
+  }
+}

@@ -4,3 +4,10 @@
   
   text-align: center;
 }
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+  .courses__programming-header {
+    padding-bottom: 15px;
+  }
+}

@@ -2,3 +2,17 @@
   padding: 0 120px 120px;
   margin: 0 auto;
 }
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 1100px) {
+  .courses {
+    padding: 80px 45px;
+  }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+  .courses {
+      padding: 0 10px 10px;
+  }
+}

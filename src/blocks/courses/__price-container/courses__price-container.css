@@ -3,3 +3,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 1100px) {
+  .courses__price-container form {
+    display: none;
+  }
+}

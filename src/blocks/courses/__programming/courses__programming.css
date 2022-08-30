@@ -4,3 +4,17 @@
 
   padding: 50px 10px 10px;
 }
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+  .courses__programming {
+    padding: 40px 30px 30px;
+  }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+  .courses__programming {
+    padding: 50px 10px 10px;
+  }
+}

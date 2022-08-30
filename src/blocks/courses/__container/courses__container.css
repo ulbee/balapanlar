@@ -1,4 +1,12 @@
 .courses__container {
   display: flex;
   gap: 10px;
+  padding-top: 10px;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 1100px) {
+  .courses__container {
+    flex-direction: column;
+  }
 }

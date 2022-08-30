@@ -85,6 +85,7 @@
 @import url(../blocks/gallery/__item/gallery__item.css);
 
 @import url(../blocks/courses/courses.css);
+@import url(../blocks/courses/__header/courses__header.css);
 @import url(../blocks/courses/__programming/courses__programming.css);
 @import url(../blocks/courses/__programming-header/courses__programming-header.css);
 @import url(../blocks/courses/__programming-description/courses__programming-description.css);
@@ -107,3 +108,4 @@
 @import url(../blocks/courses/__price-list-item/_type/courses__price-list-item_type_yes.css);
 @import url(../blocks/courses/__price-list/courses__price-list.css);
 @import url(../blocks/courses/__price-container/courses__price-container.css);
+@import url(../blocks/courses/__price-button/courses__price-button.css);
