@@ -51,14 +51,15 @@
 @import url(../blocks/popup/__body/_type/popup__body_type_partners.css);
 @import url(../blocks/popup/__body/_type/popup__body_type_courses.css);
 @import url(../blocks/popup/__paragraph/popup__paragraph.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__close-btn/popup__close-btn.css);
+@import url(../blocks/popup/__buttons/popup__buttons.css);
 
 @import url(../blocks/title/title.css);
 
 @import url(../blocks/bullets-block/__caption/bullets-block__caption.css);
 @import url(../blocks/bullets-block/__icon-user/bullets-block__icon-user.css);
 @import url(../blocks/bullets-block/bullets-block.css);
-
-@import url(../blocks/button-close/button-close.css);
 
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/_check-skills/subtitle_check-skills.css);

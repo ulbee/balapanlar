@@ -150,7 +150,7 @@
     <!-- popup_opened -->
     <div id="course-python" class="popup">
       <div class="popup__modal">
-        <button type="button" class="button-close"></button>
+        <button type="button" class="popup__close"></button>
         <div class="popup__body popup__body_type_courses">
           <!-- TODO нужен ли блок title? -->
           <h2 class="page__text_size_m title">Python Start</h2>
@@ -213,16 +213,19 @@
               <p class="subtitle subtitle_check-skills">Работать в&nbsp;команде и&nbsp;создавать проекты от&nbsp;идеи до&nbsp;их&nbsp;публичной презентации</p>
             </li>
           </ul>
-          <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
-            <!-- TODO нужен ли класс button_popup? -->
-            <button type="button" class="button button_popup button_size_s">Записаться</button>
-          </form>
+          <div class="popup__buttons">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform">
+              <!-- TODO нужен ли класс button_popup? -->
+              <button type="button" class="button button_popup button_size_s">Записаться</button>
+            </form>
+            <button type="button" class="popup__close-btn">Закрыть</button>
+          </div>
         </div>
       </div>
     </div>
     <div id="partner-lecturers" class="popup">
       <div class="popup__modal">
-        <button type="button" class="button-close"></button>
+        <button type="button" class="popup__close"></button>
         <div class="popup__body popup__body_type_partners">
           <img class="partners__image partners__image_type_lectures" src="<%=require('./images/logo_lectures.png')%>" alt="Логотип партнера лекции без границ">
           <p class="popup__text">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</p>
@@ -232,7 +235,7 @@
     </div>
     <div id="partner-horizont" class="popup">
       <div class="popup__modal">
-        <button type="button" class="button-close"></button>
+        <button type="button" class="popup__close"></button>
         <div class="popup__body popup__body_type_partners">
           <img class="partners__image partners__image_type_gorizont" src="<%=require('./images/logo_gorizont.jpg')%>" alt="Логотип партнера открывая горизонты">
           <div class="popup__text">
@@ -245,7 +248,7 @@
     </div>
     <div id="partner-himbio" class="popup">
       <div class="popup__modal">
-        <button type="button" class="button-close"></button>
+        <button type="button" class="popup__close"></button>
         <div class="popup__body popup__body_type_partners">
           <img class="partners__image partners__image_type_himbio"  src="<%=require('./images/logo_him_bio.svg')%>" alt="Логотип партнера химбио">
           <p class="popup__text">ХимБио — онлайн-школа и выездные программы для детей и подростков со всего мира! Занимаются здесь химией, биологией и физикой, много практики и опытов. Летом детей и подростков ждут экспедиции, а во время учебного года — курсы по самым разным направлениям.</p>
