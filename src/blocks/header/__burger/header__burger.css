@@ -1,6 +1,8 @@
 .header__burger {
   display: none;
-  position: relative;
+  position: absolute;
+  right: 0;
+
   background-color: transparent;
   border: 0;
   font-size: 28px;
