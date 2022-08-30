@@ -14,9 +14,9 @@
     <div class="header__logo"></div>
     <nav>
       <ul class="header__navigation">
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="#">Наши курсы</a></li>
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="#">О нас</a></li>
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="#">Команда</a></li>
+        <li class="header__navigation-list"><a class = "header__navigation-link" href="#courses">Наши курсы</a></li>
+        <li class="header__navigation-list"><a class = "header__navigation-link" href="#about">О нас</a></li>
+        <li class="header__navigation-list"><a class = "header__navigation-link" href="#partners">Команда</a></li>
         <li class="header__navigation-list"><a class = "header__navigation-link" href="https://t.me/balapanlar
           ">Как нас найти</a></li>
         <li class="header__navigation-list"><a class = "header__navigation-link" href="#">Поддержать проект</a></li>
@@ -27,7 +27,7 @@
     </form>
   </header>
   <main>
-    <section class="lead">
+    <section class="lead" id="lead">
       <h1>Досуг и курсы для детей
       в аулах и сёлах</h1>
       <button class="button button__enroll_place_lead"></button>
@@ -44,7 +44,7 @@
         Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность раскрыть свои таланты, получить хорошие современные знания в ауле, и стать успешным и счастливым взрослым.
       </p>
     </section>
-    <section class="courses">
+    <section class="courses" id="courses">
       <h2 class="courses__header">Наши курсы</h2>
       <div class="courses__programming">
         <h3 class="courses__programming-header">Программирование</h3>
@@ -74,7 +74,7 @@
       <div class="courses__price">
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h2 class="about__header">О нас</h2>
       <p class="about__text">Мы привозим лучшие практики неформального образования для тех, кто не может позволить своим детям полноценно развиваться</p>
       <div class="about__places-container">
@@ -116,7 +116,7 @@
         </div>
       </div>
     </section>
-    <section class="partners">
+    <section class="partners" id="partners">
       <h2 class="partners__header page__text_size_m">Наши партнеры</h2>
       <div class="partners__container">
         <button class="partners__button" id="lecturers"><img class="partners__image partners__image_type_lectures" src="<%=require('./images/logo_lectures.png')%>" alt="Логотип партнера лекции без границ"></button>
@@ -224,7 +224,9 @@
         <div class="popup__body popup__body_type_partners">
           <img class="partners__image partners__image_type_lectures" src="<%=require('./images/logo_lectures.png')%>" alt="Логотип партнера лекции без границ">
           <p class="popup__text">Lecturers Without Borders - сообщество молодых учёных со всего мира, которые проводят лекции и мастер-классы для школ. Среди лекторов много учёных из России. Для нас математики из Сорбонны проводили занятия по квази-кристаллам, а в будущем мы планируем привозить лекторов в наш центр.</p>
-          <button class="button button_size_s">Сайт партнёра</button> 
+          <a href="https://lewibo.org/">
+            <button class="button button_size_s">Сайт партнёра</button>
+          </a>
         </div>     
       </div>
     </div>
@@ -237,7 +239,9 @@
             <p class="popup__paragraph">Фонд работает в 45 регионах и с осени 2021 мы их единственные партнёры в Карачаево-Черкесии.</p>
             <p class="popup__paragraph">Совместно проводим программу профориентации «Поколение Выбор». В 2021–2022 в ней приняли участие 35 подростков из 2 школ аула Икон-Халк и посёлка Эркен-Шахар. В сезоне 2022–2023 планируются ещё две школы.</p>
           </div>
-          <button class="button button_size_s">Сайт партнёра</button> 
+          <a href="https://открывая-горизонты.рф/">
+          <button class="button button_size_s">Сайт партнёра</button>
+          </a>
         </div>     
       </div>
     </div>
@@ -247,7 +251,9 @@
         <div class="popup__body popup__body_type_partners">
           <img class="partners__image partners__image_type_himbio"  src="<%=require('./images/logo_him_bio.svg')%>" alt="Логотип партнера химбио">
           <p class="popup__text">ХимБио — онлайн-школа и выездные программы для детей и подростков со всего мира! Занимаются здесь химией, биологией и физикой, много практики и опытов. Летом детей и подростков ждут экспедиции, а во время учебного года — курсы по самым разным направлениям.</p>
-          <button class="button button_size_s">Сайт партнёра</button> 
+          <a href="https://himbio4you.ru/">
+            <button class="button button_size_s">Сайт партнёра</button>
+          </a>
         </div>     
       </div>
     </div>
