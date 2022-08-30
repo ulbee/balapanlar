@@ -1,0 +1,10 @@
+.lead__telegram-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    height: 72px;
+    border-radius: 60px;
+    background-color: #AE46FF;
+    margin: 326px 0 10px;
+    padding-right:10px ;
+}

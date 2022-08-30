@@ -1,0 +1,7 @@
+.lead__button {
+    background-color: #FF7628;
+}
+
+.lead__button:hover {
+    background-color: #FF8540;
+}
