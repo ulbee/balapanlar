@@ -1,0 +1,12 @@
+.courses__buy-container {
+    width: 100%;    
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 30px;
+    position: relative;
+    border-radius: 60px;
+    background-color: rgb(208, 221, 255);
+    box-sizing: border-box;
+}

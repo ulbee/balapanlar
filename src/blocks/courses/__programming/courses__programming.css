@@ -1,0 +1,9 @@
+.courses__programming {
+    margin: 40px 0 0;
+    max-width: 1220px;
+    background-color: #FFD643;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 70px;
+}

@@ -7,9 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <link rel="stylesheet" href="./src/pages/index.css" /> -->
     <title>Балапанлар</title>
-
   </head>
-
   <body class="page">
     <!-- header_scroll -->
     <header class="header">
@@ -19,11 +17,10 @@
         <nav>
           <!-- header__navigation_scroll -->
           <ul class="header__navigation">
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="#courses">Наши курсы</a></li>
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="#about">О нас</a></li>
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="#partners">Команда</a></li>
-        <li class="header__navigation-list"><a class = "header__navigation-link" href="https://t.me/balapanlar
-        ">Как нас найти</a></li>
+            <li class="header__navigation-list"><a class="header__navigation-link" href="#courses">Наши курсы</a></li>
+            <li class="header__navigation-list"><a class="header__navigation-link" href="#about">О нас</a></li>
+            <li class="header__navigation-list"><a class="header__navigation-link" href="#partners">Команда</a></li>
+            <li class="header__navigation-list"><a class="header__navigation-link" href="https://t.me/balapanlar">Как нас найти</a></li>
             <li class="header__navigation-list"><a class="header__navigation-link" href="#">Поддержать проект</a></li>
           </ul>
         </nav>
@@ -37,61 +34,259 @@
     </header>
     <main>
       <section class="lead">
-        <h1>Досуг и курсы для детей
-          в аулах и сёлах</h1>
-        <button class="button button__enroll_place_lead"></button>
-        <div class="submit__container">
-          <div class="submit__description-container">
-            <img class="submit__telegram-image" src="<%=require('./images/telegram.svg')%>" alt="иконка телеграм.">
-            <p class="submit__description-text">Следите за последними анонсами и событиями “Уя” в нашем Telegram канале
-            </p>
+        <div class="lead__container">
+          <h1 class="lead__title">Досуг и курсы для детей в аулах и сёлах</h1>
+          <form action="https://www.google.ru/" class="lead__button-courses-form" target="_blank">
+           <button class="lead__button-courses">
+              <p class="lead__button-courses-text">Записаться на курсы</p>
+            </button>
+          </form>
+          <div class="lead__contacts-container">
+            <div class="lead__contacts-icon"></div>
+            <p class="lead__contacts-info">Следите за посленими анонсами и событиями «Уя» в нашем Telegram канале</p>
+            <form action="https://www.google.ru/" class="lead__button-contacts-form" target="_blank">
+              <button class="lead__button-contacts">
+                 <p class="lead__button-contacts-text">Подписаться</p>
+               </button>
+             </form>
           </div>
-          <button class="button button__submit-telegram">Подписаться</button>
         </div>
       </section>
-      <section class="lead-description">
-        <p class="lead-description__text">
-          Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность раскрыть свои таланты, получить хорошие
-          современные знания в ауле, и стать успешным и счастливым взрослым.
+      <section class="description">
+        <p class="description__text">
+          Каждый ребёнок талантлив по-своему. Наша цель — дать детям возможность раскрыть свои таланты, получить хорошие современные знания в ауле, и стать успешным и счастливым взрослым.
         </p>
       </section>
       <section class="courses">
-        <h2 class="courses__header">Наши курсы</h2>
+        <h2 class="courses__title">Наши курсы</h2>
         <div class="courses__programming">
-          <h3 class="courses__programming-header">Программирование</h3>
+          <h2 class="courses__programming-title">Программирование</h2>
+          <p class="courses__programming-subtitle">Наши курсы программирования созданы в международной школе «Алгоритмика». Их программы уже успешно работают в 55 странах и по ним занимаются 250 тыс. студентов. Благодаря онлайн-платформе каждое занятие детей отслеживают кураторы головного офиса и дают советы нашим преподавателям на местах.</p>
           <div class="courses__programming-container">
-            <ul class="courses__programming-list">
-              <!--          тут, вроде, в каждый элемент списка нужно закинуть див с вёрсткой карточки-->
-              <li class="courses__programming-courses-card">
-                <div class="courses__programming-course-container">
+            <div class="courses__item courses__item_programming">
+              <h2 class="courses__item-title">Python Start</h2>
+              <div class="courses__bullets-block-container">
+                <div class="bullets-block">
+                  <img class="bullets-block__icon-user" src="<%=require('./images/user.svg')%>" alt="иконка в виде человека">
+                  <p class="bullets-block__caption">группы 8+ лет</p>
                 </div>
-              </li>
-              <li class="courses__programming-courses-card">
-                <div class="courses__programming-course-container">
-
+                <div class="bullets-block">
+                  <img class="bullets-block__icon-user" src="<%=require('./images/time.svg')%>" alt="иконка в виде часов">
+                  <p class="bullets-block__caption">блоки по 3 месяца</p>
                 </div>
-              </li>
-            </ul>
+              </div>
+              <div class="courses__studied-material-container">
+                <div class="studied-material courses__studied-material">
+                  <p class="studied-material__info">язык Python</p>
+                </div>
+                <div class="studied-material courses__studied-material">
+                  <p class="studied-material__info">разработка своих проектов</p>
+                </div>
+                <div class="studied-material courses__studied-material">
+                  <p class="studied-material__info">создание своего портфолио</p>
+                </div>
+                <div class="studied-material courses__studied-material">
+                  <p class="studied-material__info">создание web-сайтов</p>
+                </div>
+              </div>
+              <p class="courses__item-subtitle">Студенты к концу курса будут сами создавать<br> приложения. А ещё они научатся:</p>
+              <div class="courses__item-skills-container">
+                <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
+                <p class="courses__item-skills-text">Разбираться в основах алгоритмики и объектно-ориентированного программирования…</p>
+              </div>
+              <div class="courses__programming-buttons-container">
+                <form action="" class="button__get-course-form">
+                  <button class="button__get-course">
+                    <p class="button__get-course-text">Записаться</p>
+                  </button>
+                </form>
+                <p class="courses__show-all-skills">Смотреть все навыки</p>
+              </div>
+            </div>
+            <div class="courses__item courses__item_programming">
+              <h2 class="courses__item-title">Создание web-сайтов</h2>
+              <div class="courses__bullets-block-container">
+                <div class="bullets-block courses__bullets-block">
+                  <img class="bullets-block__icon-user" src="<%=require('./images/user.svg')%>" alt="иконка в виде человека">
+                  <p class="bullets-block__caption">группы 11–13 лет</p>
+                </div>
+                <div class="bullets-block courses__bullets-block">
+                  <img class="bullets-block__icon-user" src="<%=require('./images/time.svg')%>" alt="иконка в виде часов">
+                  <p class="bullets-block__caption">1 год, блоками по 3 месяца</p>
+                </div>
+              </div>
+              <div class="courses__studied-material-container">
+                <div class="studied-material courses__studied-material">
+                  <p class="studied-material__info">язык Python</p>
+                </div>
+                <div class="studied-material courses__studied-material">
+                  <p class="studied-material__info">разработка своих проектов</p>
+                </div>
+              </div>
+              <p class="courses__item-subtitle">На нашем курсе студенты освоят создание web-сайтов, узнают об отличиях и особенностях платформ, поймут, как работает аналитика и алгоритмы поиска.</p>
+              <p class="courses__item-subtitle">Это как самостоятельная, так и командная работа: разработка самого сайта, создание дизайна и контента позволяют окунуться с головой и приобрести действительно нужный и актуальный навык.</p>
+              <div class="courses__programming-buttons-container">
+                <form action="" class="button__get-course-form">
+                  <button class="button__get-course">
+                    <p class="button__get-course-text">Записаться</p>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="courses__other-courses-container">
+          <div class="courses__item">
+            <h2 class="courses__item-title">3D технологии</h2>
+            <div class="courses__bullets-block-container">
+              <div class="bullets-block courses__bullets-block">
+                <img class="bullets-block__icon-user" src="<%=require('./images/user.svg')%>" alt="иконка в виде человека">
+                <p class="bullets-block__caption">группы 8+ лет</p>
+              </div>
+              <div class="bullets-block courses__bullets-block">
+                <img class="bullets-block__icon-user" src="<%=require('./images/time.svg')%>" alt="иконка в виде часов">
+                <p class="bullets-block__caption">блоки по 3 месяца</p>
+              </div>
+            </div>
+            <div class="courses__studied-material-container">
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">разговорный язык</p>
+              </div>
+              <div class="studied-material courses__studied-material ">
+                <p class="studied-material__info">письмо</p>
+              </div>
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">изучение культуры</p>
+              </div>
+            </div>
+            <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            <div class="courses__programming-buttons-container">
+              <form action="" class="button__get-course-form">
+                <button class="button__get-course">
+                  <p class="button__get-course-text">Записаться</p>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="courses__item courses__item_others">
+            <h2 class="courses__item-title">Английский язык</h2>
+            <div class="courses__bullets-block-container">
+              <div class="bullets-block courses__bullets-block">
+                <img class="bullets-block__icon-user" src="<%=require('./images/user.svg')%>" alt="иконка в виде человека">
+                <p class="bullets-block__caption">группы 6+ лет, 10+ лет, взрослые</p>
+              </div>
+              <div class="bullets-block courses__bullets-block">
+                <img class="bullets-block__icon-user" src="<%=require('./images/time.svg')%>" alt="иконка в виде часов">
+                <p class="bullets-block__caption">блоки по 3 месяца</p>
+              </div>
+            </div>
+            <div class="courses__studied-material-container">
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">разговорный язык</p>
+              </div>
+              <div class="studied-material courses__studied-material ">
+                <p class="studied-material__info">акценты</p>
+              </div>
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">резюме</p>
+              </div>
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">сленг</p>
+              </div>
+            </div>
+            <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            <div class="courses__programming-buttons-container">
+              <form action="" class="button__get-course-form">
+                <button class="button__get-course">
+                  <p class="button__get-course-text">Записаться</p>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="courses__item">
+            <h2 class="courses__item-title">3D технологии</h2>
+            <div class="courses__bullets-block-container">
+              <div class="bullets-block courses__bullets-block">
+                <img class="bullets-block__icon-user" src="<%=require('./images/user.svg')%>" alt="иконка в виде человека">
+                <p class="bullets-block__caption">группы 8+ лет</p>
+              </div>
+              <div class="bullets-block courses__bullets-block">
+                <img class="bullets-block__icon-user" src="<%=require('./images/time.svg')%>" alt="иконка в виде часов">
+                <p class="bullets-block__caption">блоки по 3 месяца</p>
+              </div>
+            </div>
+            <div class="courses__studied-material-container">
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">разговорный язык</p>
+              </div>
+              <div class="studied-material courses__studied-material ">
+                <p class="studied-material__info">письмо</p>
+              </div>
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">изучение культуры</p>
+              </div>
+            </div>
+            <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            <div class="courses__programming-buttons-container">
+              <form action="" class="button__get-course-form">
+                <button class="button__get-course">
+                  <p class="button__get-course-text">Записаться</p>
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="courses__other-grid-container">
-          <ul class="courses__other-list">
-            <li class="courses__other-element"></li>
-            <li class="courses__other-element"></li>
-            <li class="courses__other-element"></li>
-          </ul>
+        <div class="courses__buy-container ">
+          <div class="courses__price-buy">
+            <h2 class="courses__price-title">Стоимость курсов 3500 руб./мес</h2>
+            <div class="courses__programming-buttons-container">
+              <form action="" class="button__get-course-form">
+                <button class="button__get-course">
+                  <p class="button__get-course-text">Оплатить курсы</p>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="courses__events courses__events_includes">
+            <h2 class="courses__events-title">Что входит в стоимость?</h2>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">2 занятия в неделю по 2 часа</p>
+            </div>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">Небольшие группы до 10 чел.</p>
+            </div>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">1 личная консультация в месяц для студентов курса</p>
+            </div>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">Снэки, вода, чай на нашей кухне</p>
+            </div>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">1 консультация для родителей о курсе и достижениях студента</p>
+            </div>
+          </div>
+          <div class="courses__events">
+            <h2 class="courses__events-title">Что не входит в стоимость?</h2>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/cross.png')%>" alt="крестик" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">Трансфер из вашего аула к центру</p>
+            </div>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/cross.png')%>" alt="крестик" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">Индивидуальные занятия</p>
+            </div>
+            <div class="courses__item-skills-container">
+              <img src="<%=require('./images/cross.png')%>" alt="крестик" class="courses__item-skills-icon">
+              <p class="courses__item-skills-text">Ежегодный членский взнос в размере 1 500 ₽ (оплачивается раз в год в начале курса)</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="courses__other-grid-container">
-        <ul class="courses__other-list">
-          <li class="courses__other-element"></li>
-          <li class="courses__other-element"></li>
-          <li class="courses__other-element"></li>
-        </ul>
-      </div>
-      <div class="courses__price">
-      </div>
-    </section>
+      </section>
     <section class="about" id="about">
       <h2 class="about__header">О нас</h2>
       <p class="about__text">Мы привозим лучшие практики неформального образования для тех, кто не может позволить своим детям полноценно развиваться</p>

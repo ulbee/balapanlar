@@ -1,0 +1,15 @@
+.lead__button-courses {
+    margin: 0;
+    height: 104px;
+    width: 395px;
+    padding: 0;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(255, 118, 40);
+    transition: 0.2s ease-in;
+}
+
+.lead__button-courses:hover {
+    background-color: rgb(255, 133, 64);
+    cursor: pointer;
+}
