@@ -53,25 +53,26 @@ const viewSkillBtn = document.querySelector('h1'), //нужен класс кн�
   partnerChemBioBtn = document.querySelector('#himbio'), //
   popupLWB = document.querySelector('#partner-lecturers'), //
   popupOpenHorizon = document.querySelector('#partner-horizont'), //
-  popupChemBio = document.querySelector('#partner-himbio'),
+  popupHimbio = document.querySelector('#partner-himbio'),
   popupCloseBtn = document.querySelector('.popup__close-btn'),
-  closeBtn = document.querySelector('.popup__close');
+  closeBtn = document.querySelector('.popup__close'),
+  closeBtnLecturers = document.querySelector('#close-partner-lecturers'),
+  closeBtnHorizont = document.querySelector('#close-partner-horizont'),
+  closeBtnHimbio = document.querySelector('#close-partner-himbio');
 
 function openPopup(popup) {
   popup.classList.add('popup_opened');
   window.addEventListener('keydown', handleEsc);
   window.addEventListener('mousedown', closeByOverlay);
-  closeBtn.addEventListener('click', () => closePopup(popupCourses));
-  popupCloseBtn.addEventListener('click', () => closePopup(popupCourses));
 }
 
 function closePopup(popup) {
   popup.classList.remove('popup_opened');
   window.removeEventListener('keydown', handleEsc);
   window.removeEventListener('click', closeByOverlay);
-  closeBtn.removeEventListener('click', () => closePopup(popupCourses));
-  popupCloseBtn.removeEventListener('click', () => closePopup(popupCourses));
 }
+
+
 
 //закрытие по esc
 function handleEsc(evt) {
@@ -83,13 +84,17 @@ function handleEsc(evt) {
 
 //Закрытие кликом на оверлей
 function closeByOverlay (evt) {
-  if (evt.target.classList.contains('.popup')) {
+  if (evt.target.classList.contains('popup')) {
     closePopup(evt.target);
   }
 }
 
-
 viewSkillBtn.addEventListener('click', () => openPopup(popupCourses));
 partnerLWBBtn.addEventListener('click', () => openPopup(popupLWB));
 partnerOpenHorizonsBtn.addEventListener('click', () => openPopup(popupOpenHorizon));
-partnerChemBioBtn.addEventListener('click', () => openPopup(popupChemBio));
+partnerChemBioBtn.addEventListener('click', () => openPopup(popupHimbio));
+closeBtn.addEventListener('click', () => closePopup(popupCourses));
+popupCloseBtn.addEventListener('click', () => closePopup(popupCourses));
+closeBtnLecturers.addEventListener('click', () => closePopup(popupLWB));
+closeBtnHorizont.addEventListener('click', () => closePopup(popupOpenHorizon));
+closeBtnHimbio.addEventListener('click', () => closePopup(popupHimbio))
