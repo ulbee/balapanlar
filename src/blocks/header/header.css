@@ -8,6 +8,8 @@
   height: 120px;
   padding: 0 20px;
   position: relative;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 800px) {
