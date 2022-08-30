@@ -1,0 +1,9 @@
+.courses__events {
+    height: 100%;
+    margin: 0 39px 0 0;
+    max-width: 291px;
+}
+
+.courses__events:last-of-type {
+    margin: 0;
+}

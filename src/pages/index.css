@@ -28,3 +28,43 @@
 @import url(../blocks/lead/__button-contacts-form/lead__button-contacts-form.css);
 @import url(../blocks/lead/__button-contacts/lead__button-contacts.css);
 @import url(../blocks/lead/__button-contacts-text/lead__button-contacts-text.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/courses/courses.css);
+@import url(../blocks/courses/__title/courses__title.css);
+@import url(../blocks/courses/__programming/courses__programming.css);
+@import url(../blocks/courses/__programming-title/courses__programming-title.css);
+@import url(../blocks/courses/__programming-subtitle/courses__programming-subtitle.css);
+@import url(../blocks/courses/__programming-container/courses__programming-container.css);
+@import url(../blocks/courses/__item/courses__item.css);
+@import url(../blocks/courses/__item/_programming/courses__item_programming.css);
+@import url(../blocks/courses/__item-title/courses__item-title.css);
+@import url(../blocks/bullets-block/bullets-block.css);
+@import url(../blocks/bullets-block/__caption/bullets-block__caption.css);
+@import url(../blocks/bullets-block/__icon-user/bullets-block__icon-user.css);
+@import url(../blocks/studied-material/studied-material.css);
+@import url(../blocks/courses/__studied-material/courses__studied-material.css);
+@import url(../blocks/studied-material/__info/studied-material__info.css);
+@import url(../blocks/courses/__item-skills-container/courses__item-skills-container.css);
+@import url(../blocks/courses/__item-skills-icon/courses__item-skills-icon.css);
+@import url(../blocks/courses/__item-skills-text/courses__item-skills-text.css);
+@import url(../blocks/courses/__bullets-block-container/courses__bullets-block-container.css);
+@import url(../blocks/courses/__studied-material-container/courses__studied-material-container.css);
+@import url(../blocks/courses/__item-subtitle/courses__item-subtitle.css);
+@import url(../blocks/button/__get-course-form/button__get-course-form.css);
+@import url(../blocks/button/__get-course-text/button__get-course-text.css);
+@import url(../blocks/button/__get-course/button__get-course.css);
+@import url(../blocks/courses/__programming-buttons-container/courses__programming-buttons-container.css);
+@import url(../blocks/courses/__show-all-skills/courses__show-all-skills.css);
+@import url(../blocks/courses/__other-courses-container/courses__other-courses-container.css);
+@import url(../blocks/courses/__item/_others/courses__item_others.css);
+@import url(../blocks/courses/__bullets-block/courses__bullets-block.css);
+@import url(../blocks/courses/__buy-container/courses__buy-container.css);
+@import url(../blocks/courses/__price-buy/courses__price-buy.css);
+@import url(../blocks/courses/__price-title/courses__price-title.css);
+@import url(../blocks/courses/__events/courses__events.css);
+@import url(../blocks/courses/__events-title/courses__events-title.css);
+@import url(../blocks/courses/__events/_includes/courses__events_includes.css);
+
+
+

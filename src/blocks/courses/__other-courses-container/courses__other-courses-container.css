@@ -1,0 +1,6 @@
+.courses__other-courses-container {
+    margin: 10px 0 0;
+    max-width: 1220px;
+    display: flex;
+    align-items: center;
+}

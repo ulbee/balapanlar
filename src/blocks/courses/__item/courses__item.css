@@ -1,0 +1,16 @@
+.courses__item {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 10px;
+    max-width: 386px;
+    height: 563px;
+}
+
+.courses__item:last-of-type {
+    margin-right: 0;
+}

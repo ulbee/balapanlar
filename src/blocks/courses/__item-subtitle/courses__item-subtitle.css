@@ -1,0 +1,10 @@
+.courses__item-subtitle {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+}
+
+.courses__item-subtitle:first-of-type {
+    margin: 25px 0 15px;
+}

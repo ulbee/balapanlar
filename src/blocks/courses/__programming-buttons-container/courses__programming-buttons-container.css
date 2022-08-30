@@ -1,0 +1,7 @@
+.courses__programming-buttons-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
