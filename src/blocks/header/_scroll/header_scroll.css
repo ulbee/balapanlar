@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   transition: 0.3s ease;
+  margin: auto;
 }
 
 @media screen and (max-width: 800px) {
@@ -11,8 +12,8 @@
     width: 744px;
     height: 80px;
     border-radius: 0;
-    margin: auto;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
