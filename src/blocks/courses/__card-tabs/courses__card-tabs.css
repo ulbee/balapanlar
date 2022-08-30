@@ -1,3 +1,10 @@
 .courses__card-tabs {
   padding: 30px 0;
 }
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 400px) {
+  .courses__card-tabs {
+    padding: 20px 0;
+  }
+}

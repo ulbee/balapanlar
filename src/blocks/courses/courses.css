@@ -11,8 +11,8 @@
 }
 
 /* Версия под мобильные 320 в макете */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 400px) {
   .courses {
-      padding: 0 10px 10px;
+      padding: 30px 10px 10px;
   }
 }

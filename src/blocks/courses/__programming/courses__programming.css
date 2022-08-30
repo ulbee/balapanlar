@@ -6,9 +6,10 @@
 }
 
 /* Версия под планшет 744 в макете */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .courses__programming {
     padding: 40px 30px 30px;
+    border-radius: 60px;
   }
 }
 
@@ -16,5 +17,6 @@
 @media screen and (max-width: 680px) {
   .courses__programming {
     padding: 50px 10px 10px;
+    border-radius: 40px;
   }
 }

@@ -4,3 +4,10 @@
   margin: 0 auto;
   padding: 0 0 40px;
 }
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 400px) {
+  .courses__programming-description {
+      padding-bottom: 10px;
+  }
+}

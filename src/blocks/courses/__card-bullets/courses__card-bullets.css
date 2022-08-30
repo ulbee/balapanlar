@@ -5,3 +5,10 @@
   flex-direction: column;
   gap: 10px;
 }
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 400px) {
+  .courses__card-bullets {
+    padding-top: 20px;
+  }
+}
