@@ -2,7 +2,7 @@
     min-width: 320px;
     max-width: 1440px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 120px;
     background-color: #EAF0FF;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -11,3 +11,9 @@
     font-family: Montserrat, Arial, sans-serif;
     font-style: normal;
 }
+
+@media screen and (max-width: 800px) {
+    .page {
+        padding-top: 80px;
+    }
+  }
