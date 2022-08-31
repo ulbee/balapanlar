@@ -7,3 +7,18 @@
 .courses__events:last-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__events {
+        margin: 30px 0 0;
+    }
+
+    .courses__events:last-of-type {
+        margin: 30px 0 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__events {
+    }
+}

@@ -1,3 +1,14 @@
 .courses__item_others {
     max-width: 408px;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__item_others {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__item_others {
+    }
+}

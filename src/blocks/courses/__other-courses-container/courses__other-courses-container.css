@@ -4,3 +4,15 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__other-courses-container {
+        flex-direction: column;
+        padding: 0 35px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__other-courses-container {
+    }
+}

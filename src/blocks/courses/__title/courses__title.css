@@ -6,3 +6,14 @@
     letter-spacing: -1px;
     align-self: flex-start;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__title {
+        margin-left: 35px; 
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__title {
+    }
+}

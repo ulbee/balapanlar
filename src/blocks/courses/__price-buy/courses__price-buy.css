@@ -3,3 +3,14 @@
     max-width: 342px;
     margin-right: 52px;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__price-buy {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__price-buy {
+    }
+}

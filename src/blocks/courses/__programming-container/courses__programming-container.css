@@ -5,3 +5,16 @@
     max-width: 1200px;
     padding: 0px 10px 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__programming-container {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__programming-container {
+    }
+}
