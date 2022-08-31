@@ -21,5 +21,8 @@
 
 @media screen and (max-width: 680px) {
     .courses__buy-container {
+        max-width: calc(100% - 20px);
+        border-radius: 30px;
+        padding: 15px 15px 105px;
     }
 }

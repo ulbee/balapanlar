@@ -8,3 +8,10 @@
 .courses__item-subtitle:first-of-type {
     margin: 25px 0 15px;
 }
+
+@media screen and (max-width: 680px) {
+    .courses__item-subtitle:first-of-type {
+        margin: 20px 0 5px;
+    }
+
+}

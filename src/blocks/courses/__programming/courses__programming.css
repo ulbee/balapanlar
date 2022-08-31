@@ -18,5 +18,8 @@
 
 @media screen and (max-width: 680px) {
     .courses__programming {
+        padding: 50px 10px 10px;
+        margin-top: 30px;
+        border-radius: 40px;
     }
 }

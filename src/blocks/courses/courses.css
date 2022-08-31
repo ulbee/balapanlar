@@ -15,5 +15,7 @@
 
 @media screen and (max-width: 680px) {
     .courses {
+        padding: 0;
+        margin-bottom: 10px;
     }
 }

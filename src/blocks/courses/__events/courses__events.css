@@ -20,5 +20,10 @@
 
 @media screen and (max-width: 680px) {
     .courses__events {
+        margin: 20px 0 0;
+    }
+
+    .courses__events:last-of-type {
+        margin: 20px 0 0;
     }
 }

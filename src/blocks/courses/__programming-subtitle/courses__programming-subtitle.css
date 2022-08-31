@@ -15,6 +15,9 @@
 
 @media screen and (max-width: 680px) {
     .courses__programming-subtitle {
+        margin: 0 0 10px;
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 

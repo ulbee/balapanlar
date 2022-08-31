@@ -14,5 +14,6 @@
 
 @media screen and (max-width: 680px) {
     .courses__other-courses-container {
+        padding: 0 10px;
     }
 }

@@ -5,3 +5,10 @@
     line-height: 43.88px;
     letter-spacing: -1px;
 }
+
+@media screen and (max-width: 680px) {
+    .courses__price-title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

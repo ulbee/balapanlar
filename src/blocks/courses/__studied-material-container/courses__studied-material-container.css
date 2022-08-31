@@ -1,3 +1,9 @@
 .courses__studied-material-container {
     margin: 30px 0 0;
 }
+
+@media screen and (max-width: 680px) {
+    .courses__studied-material-container {
+        margin-top: 20px;
+    }
+}

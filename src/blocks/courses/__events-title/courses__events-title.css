@@ -4,3 +4,11 @@
     line-height: 21.94px;
     letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__events-title {
+        margin: 0;
+        padding: 0;
+    }
+}
+

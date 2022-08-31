@@ -5,3 +5,12 @@
     bottom: 30px;
     left: 30px;
 }
+
+@media screen and (max-width: 680px) {
+    .courses__programming-buttons-container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        left: 15px;
+        bottom: 15px;
+    }
+}

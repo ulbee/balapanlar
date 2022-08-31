@@ -15,5 +15,8 @@
 
 @media screen and (max-width: 680px) {
     .courses__title {
+        font-size: 36px;
+        line-height: 44px;
+        margin: 30px 15px 0;
     }
 }

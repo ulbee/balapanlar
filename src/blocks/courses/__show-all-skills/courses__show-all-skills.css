@@ -10,3 +10,11 @@
     cursor: pointer;
     opacity: .6;
 }
+
+@media screen and (max-width: 680px) {
+    .courses__show-all-skills {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 0 20px 0;
+    }
+}

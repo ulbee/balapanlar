@@ -31,5 +31,8 @@
 
 @media screen and (max-width: 680px) {
     .courses__item {
+        padding: 15px 15px 150px;
+        border-radius: 30px;
+        margin: 0 0 10px;
     }
 }
