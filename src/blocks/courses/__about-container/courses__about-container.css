@@ -1,0 +1,11 @@
+.courses__about-container {
+    margin: 0 0 94px 0;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 690px) {
+    .courses__about-container {
+        margin: 0 0 74px 0;
+        margin-top: 15px;
+    }
+}

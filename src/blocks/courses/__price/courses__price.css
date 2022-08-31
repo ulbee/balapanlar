@@ -1,0 +1,11 @@
+.courses__price {
+    max-width: 342px;
+    margin-right: 52px;
+}
+
+@media screen and (max-width: 1100px) {
+    .courses__price {
+        max-width: none;
+        margin: 0;
+    }
+}

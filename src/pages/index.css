@@ -83,12 +83,15 @@
 @import url(../blocks/courses/__other-courses-container/courses__other-courses-container.css);
 @import url(../blocks/courses/__item/_others/courses__item_others.css);
 @import url(../blocks/courses/__bullets-block/courses__bullets-block.css);
-@import url(../blocks/courses/__buy-container/courses__buy-container.css);
-@import url(../blocks/courses/__price-buy/courses__price-buy.css);
+@import url(../blocks/courses/__price-container/courses__price-container.css);
+@import url(../blocks/courses/__price/courses__price.css);
 @import url(../blocks/courses/__price-title/courses__price-title.css);
 @import url(../blocks/courses/__events/courses__events.css);
 @import url(../blocks/courses/__events-title/courses__events-title.css);
 @import url(../blocks/courses/__events/_includes/courses__events_includes.css);
+@import url(../blocks/courses/__about-container/courses__about-container.css);
+@import url(../blocks/courses/__about-container/_all-skills/courses__about-container_all-skills.css);
+@import url(../blocks/courses/__events/_no-includes/courses__events_no-includes.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__modal/popup__modal.css);

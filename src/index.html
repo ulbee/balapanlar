@@ -85,10 +85,12 @@
                   <p class="studied-material__info">создание web-сайтов</p>
                 </div>
               </div>
-              <p class="courses__item-subtitle">Студенты к концу курса будут сами создавать<br> приложения. А ещё они научатся:</p>
-              <div class="courses__item-skills-container">
-                <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
-                <p class="courses__item-skills-text">Разбираться в основах алгоритмики и объектно-ориентированного программирования…</p>
+              <div class="courses__about-container courses__about-container_all-skills">
+                <p class="courses__item-subtitle">Студенты к концу курса будут сами создавать<br> приложения. А ещё они научатся:</p>
+                <div class="courses__item-skills-container">
+                  <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
+                  <p class="courses__item-skills-text">Разбираться в основах алгоритмики и объектно-ориентированного программирования…</p>
+                </div>
               </div>
               <div class="courses__programming-buttons-container">
                 <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" class="button__get-course-form">
@@ -117,8 +119,10 @@
                   <p class="studied-material__info">разработка своих проектов</p>
                 </div>
               </div>
-              <p class="courses__item-subtitle">На нашем курсе студенты освоят создание web-сайтов, узнают об отличиях и особенностях платформ, поймут, как работает аналитика и алгоритмы поиска.</p>
-              <p class="courses__item-subtitle">Это как самостоятельная, так и командная работа: разработка самого сайта, создание дизайна и контента позволяют окунуться с головой и приобрести действительно нужный и актуальный навык.</p>
+              <div class="courses__about-container">
+                <p class="courses__item-subtitle">На нашем курсе студенты освоят создание web-сайтов, узнают об отличиях и особенностях платформ, поймут, как работает аналитика и алгоритмы поиска.</p>
+                <p class="courses__item-subtitle">Это как самостоятельная, так и командная работа: разработка самого сайта, создание дизайна и контента позволяют окунуться с головой и приобрести действительно нужный и актуальный навык.</p>
+              </div>
               <div class="courses__programming-buttons-container">
                 <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" class="button__get-course-form">
                   <button class="button button__get-course">Записаться</button>
@@ -151,7 +155,9 @@
                 <p class="studied-material__info">изучение культуры</p>
               </div>
             </div>
-            <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            <div class="courses__about-container">
+              <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            </div>
             <div class="courses__programming-buttons-container">
               <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" class="button__get-course-form">
                 <button class="button button__get-course">Записаться</button>
@@ -184,7 +190,9 @@
                 <p class="studied-material__info">сленг</p>
               </div>
             </div>
-            <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            <div class="courses__about-container">
+              <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            </div>  
             <div class="courses__programming-buttons-container">
               <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" class="button__get-course-form">
                 <button class="button button__get-course">Записаться</button>
@@ -205,16 +213,21 @@
             </div>
             <div class="courses__studied-material-container">
               <div class="studied-material courses__studied-material">
-                <p class="studied-material__info">разговорный язык</p>
+                <p class="studied-material__info">3D моделирование</p>
               </div>
               <div class="studied-material courses__studied-material ">
-                <p class="studied-material__info">письмо</p>
+                <p class="studied-material__info">3D печать</p>
               </div>
               <div class="studied-material courses__studied-material">
-                <p class="studied-material__info">изучение культуры</p>
+                <p class="studied-material__info">работа в команде</p>
+              </div>
+              <div class="studied-material courses__studied-material">
+                <p class="studied-material__info">проект</p>
               </div>
             </div>
-            <p class="courses__item-subtitle">Мы запускаем курс для новичков. На нем участники научатся читать, писать и вести диалоги на корейском. Студенты узнают об истории и культуре Кореи и особенностях в общении.</p>
+            <div class="courses__about-container">
+              <p class="courses__item-subtitle">Cтуденты освоят программы моделирования, сканирования и печати на 3D-принтере. К завершению курса студенты сами напечатают настоящие предметы.</p>
+            </div>
             <div class="courses__programming-buttons-container">
               <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" class="button__get-course-form">
                 <button class="button button__get-course">Записаться</button>
@@ -222,8 +235,8 @@
             </div>
           </div>
         </div>
-        <div class="courses__buy-container ">
-          <div class="courses__price-buy">
+        <div class="courses__price-container ">
+          <div class="courses__price">
             <h2 class="courses__price-title">Стоимость курсов 3500 руб./мес</h2>
             <div class="courses__programming-buttons-container">
               <form action="https://docs.google.com/forms/d/e/1FAIpQLScRkeum4swQ7Kyv1-04uBeVWIdb8AwhyJE2np9_wFp5ucp3qw/viewform" class="button__get-course-form">
@@ -243,7 +256,7 @@
             </div>
             <div class="courses__item-skills-container">
               <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
-              <p class="courses__item-skills-text">1 личная консультация в месяц для студентов курса</p>
+              <p class="courses__item-skills-text">1 личная консультация в месяц<br>для студентов курса</p>
             </div>
             <div class="courses__item-skills-container">
               <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
@@ -251,10 +264,10 @@
             </div>
             <div class="courses__item-skills-container">
               <img src="<%=require('./images/check_mark.svg')%>" alt="галочка" class="courses__item-skills-icon">
-              <p class="courses__item-skills-text">1 консультация для родителей о курсе и достижениях студента</p>
+              <p class="courses__item-skills-text">1 консультация для родителей о курсе<br>и достижениях студента</p>
             </div>
           </div>
-          <div class="courses__events">
+          <div class="courses__events courses__events_no-includes">
             <h2 class="courses__events-title">Что не входит в стоимость?</h2>
             <div class="courses__item-skills-container">
               <img src="<%=require('./images/cross.png')%>" alt="крестик" class="courses__item-skills-icon">
@@ -268,6 +281,11 @@
               <img src="<%=require('./images/cross.png')%>" alt="крестик" class="courses__item-skills-icon">
               <p class="courses__item-skills-text">Ежегодный членский взнос в размере 1 500 ₽ (оплачивается раз в год в начале курса)</p>
             </div>
+          </div>
+          <div class="courses__programming-buttons-container">
+            <form action="" class="button__get-course-form">
+              <button class="button button__get-course">Оплатить курсы</button>
+            </form>
           </div>
         </div>
       </section> -->

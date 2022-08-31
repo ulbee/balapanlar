@@ -1,5 +1,5 @@
 .courses__show-all-skills {
-    margin-left: 30px;
+    margin: 0 0 0 30px;
     font-size: 20px;
     font-weight: 600;
     line-height: 24.38px;
@@ -9,4 +9,11 @@
 .courses__show-all-skills:hover {
     cursor: pointer;
     opacity: .6;
+}
+
+@media screen and (max-width: 690px) {
+    .courses__show-all-skills {
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
 }

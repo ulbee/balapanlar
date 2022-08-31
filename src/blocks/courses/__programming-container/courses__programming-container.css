@@ -3,5 +3,10 @@
     display: flex;
     align-items: center;
     max-width: 1200px;
-    padding: 0px 10px 10px;
+}
+
+@media screen and (max-width: 1200px){
+    .courses__programming-container {
+        flex-direction: column;
+    }
 }

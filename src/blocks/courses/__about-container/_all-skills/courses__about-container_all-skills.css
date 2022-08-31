@@ -1,0 +1,15 @@
+.courses__about-container_all-skills {
+    margin: 25px 0 133px 0;
+}
+
+@media screen and (max-width: 1200px){
+    .courses__about-container_all-skills {
+        margin: 0 0 114px 0;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .courses__about-container_all-skills {
+        margin: 15px 0 129px 0;
+    }
+}
