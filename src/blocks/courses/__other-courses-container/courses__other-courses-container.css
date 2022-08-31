@@ -4,3 +4,17 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 1200px) {
+    .courses__other-courses-container {
+        flex-direction: column;
+        max-width: none;
+        width: calc(100% - 2*75px);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .courses__other-courses-container {
+        width: calc(100% - 2*10px)
+    }
+}

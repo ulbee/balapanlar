@@ -1,4 +1,8 @@
 .courses__item-skills-container {
-    margin: 15px 0 0;
+    margin: 12px 0 0;
     display: flex;
+}
+
+.courses__item-skills-container:first-of-type {
+    margin: 0;
 }
