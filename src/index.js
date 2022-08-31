@@ -56,7 +56,7 @@ mm.add("(min-width: 801px)", () => {
 });
 
 
-const viewSkillBtn = document.querySelector('h1'), //нужен класс кнопки "Смотреть все навыки"
+const viewSkillBtn = document.querySelector('.courses__show-all-skills'), //нужен класс кнопки "Смотреть все навыки"
   popupCourses = document.querySelector('#course-python'),
   partnerLWBBtn = document.querySelector('#lecturers'),
   partnerOpenHorizonsBtn = document.querySelector('#horizont'), //

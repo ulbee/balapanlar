@@ -3,4 +3,10 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 24.38px;
+    transition: opacity .5s ease;
+}
+
+.courses__show-all-skills:hover {
+    cursor: pointer;
+    opacity: .6;
 }
