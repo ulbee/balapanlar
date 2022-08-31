@@ -10,3 +10,16 @@
     background-color: rgb(208, 221, 255);
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__buy-container {
+        flex-direction: column;
+        max-width: calc(100% - 70px);
+        padding-bottom: 125px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__buy-container {
+    }
+}

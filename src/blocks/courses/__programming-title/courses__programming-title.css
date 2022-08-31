@@ -6,3 +6,17 @@
     letter-spacing: -1px;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__programming-title {
+        margin: 0 0 15px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__programming-title {
+    }
+}
+

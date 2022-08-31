@@ -7,3 +7,16 @@
     align-items: center;
     border-radius: 70px;
 }
+
+@media screen and (max-width: 800px) {
+    .courses__programming {
+        width: 100%;
+        padding: 40px 30px 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .courses__programming {
+    }
+}
