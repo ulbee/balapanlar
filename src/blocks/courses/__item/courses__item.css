@@ -1,6 +1,6 @@
 .courses__item {
     background-color: white;
-    padding: 30px;
+    padding: 30px 30px 105px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -9,7 +9,7 @@
     position: relative;
     margin-right: 10px;
     max-width: 386px;
-    height: 563px;
+    /* height: 563px; */
 }
 
 .courses__item:last-of-type {
