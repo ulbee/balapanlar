@@ -6,4 +6,22 @@
     color: white;
     font-weight: 600;
     line-height: 90px;
+    letter-spacing: -1px;
 }
+
+@media screen and (max-width:1180px) {
+    .lead__title{
+        max-width: 575px;
+        font-size: 64px;
+        line-height: 78px;
+
+    }
+  }
+
+  @media screen and (max-width:680px) {
+    .lead__title{
+        max-width: 292px;
+        font-size: 36px;
+        line-height: 44px;
+    }
+  }

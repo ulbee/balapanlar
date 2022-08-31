@@ -1,9 +1,9 @@
 .lead__contacts-info {
     margin: 0;
-    color: white;
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
-    line-height: 21.94px;
+    line-height: 22px;
     margin-right: 242px;
     letter-spacing: -0.5px;
 }
@@ -11,6 +11,6 @@
 @media screen and (max-width: 1280px) {
     .lead__contacts-info {
         font-size: 16px;
-        margin-right: 10px;
+        margin: 0 10px 0 15px;
     }
 }
