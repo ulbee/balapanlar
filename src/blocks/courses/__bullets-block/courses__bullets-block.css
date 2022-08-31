@@ -1,3 +1,9 @@
 .courses__bullets-block {
     margin-right: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.courses__bullets-block:last-of-type {
+    margin-bottom: 0;
 }
