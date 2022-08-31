@@ -82,7 +82,6 @@
 @import url(../blocks/courses/__show-all-skills/courses__show-all-skills.css);
 @import url(../blocks/courses/__other-courses-container/courses__other-courses-container.css);
 @import url(../blocks/courses/__item/_others/courses__item_others.css);
-@import url(../blocks/courses/__bullets-block/courses__bullets-block.css);
 @import url(../blocks/courses/__price-container/courses__price-container.css);
 @import url(../blocks/courses/__price/courses__price.css);
 @import url(../blocks/courses/__price-title/courses__price-title.css);
@@ -115,6 +114,8 @@
 @import url(../blocks/bullets-block/__caption/bullets-block__caption.css);
 @import url(../blocks/bullets-block/__icon-user/bullets-block__icon-user.css);
 @import url(../blocks/bullets-block/bullets-block.css);
+@import url(../blocks/courses/__bullets-block-icon/courses__bullets-block-icon.css);
+@import url(../blocks/courses/__bullets-block/courses__bullets-block.css);
 
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/_check-skills/subtitle_check-skills.css);
