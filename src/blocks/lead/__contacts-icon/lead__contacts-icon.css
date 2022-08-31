@@ -6,3 +6,9 @@
     background-repeat: no-repeat;
     margin-left: 25px;
 }
+
+@media screen and (max-width: 800px) {
+    .lead__contacts-icon {
+        margin: 0;
+    }
+  }
