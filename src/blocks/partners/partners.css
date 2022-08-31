@@ -8,12 +8,14 @@
 @media screen and (max-width: 800px) {
     .partners {
         padding: 80px 75px;
+        border-radius: 0 0 50px 50px;
     }
 }
 
 /* Версия под мобильные 320 в макете */
 @media screen and (max-width: 680px) {
     .partners {
+        border-radius: 0;
         padding: 30px 15px 50px;
     }
 }

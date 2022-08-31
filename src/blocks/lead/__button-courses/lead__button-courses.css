@@ -17,3 +17,12 @@
     background-color: rgb(255, 133, 64);
     cursor: pointer;
 }
+
+@media screen and (max-width: 680px) {
+    .lead__button-courses {
+        width: 224px;
+        height: 52px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
