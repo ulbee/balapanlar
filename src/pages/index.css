@@ -103,12 +103,17 @@
 @import url(../blocks/popup/__check-container/popup__check-container.css);
 @import url(../blocks/popup/__text/popup__text.css);
 @import url(../blocks/popup/__body/popup__body.css);
-@import url(../blocks/popup/__body/_type/popup__body_type_partners.css);
+@import url(../blocks/popup/__partners/popup__partners.css);
 @import url(../blocks/popup/__body/_type/popup__body_type_courses.css);
 @import url(../blocks/popup/__paragraph/popup__paragraph.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__close-btn/popup__close-btn.css);
 @import url(../blocks/popup/__buttons/popup__buttons.css);
+@import url(../blocks/popup/__partners/popup__partners.css);
+@import url(../blocks/popup/__partners-image/popup__partners-image.css);
+@import url(../blocks/popup/__partners-image/_type/popup__partners-image_type_gorizont.css);
+@import url(../blocks/popup/__partners-image/_type/popup__partners-image_type_himbio.css);
+@import url(../blocks/popup/__partners-image/_type/popup__partners-image_type_lectures.css);
 
 @import url(../blocks/title/title.css);
 

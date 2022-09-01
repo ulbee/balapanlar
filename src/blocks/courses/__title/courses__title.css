@@ -1,5 +1,5 @@
 .courses__title {
-    margin: 19px 0 0 75px;
+    margin: 19px 0 0 120px;
     font-size: 60px;
     font-weight: 600;
     line-height: 68px;
@@ -7,11 +7,11 @@
     align-self: flex-start;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
     .courses__title {
-    font-size: 48px;
-    line-height: 58.51px;
-    margin-left: 45px;
+        font-size: 48px;
+        line-height: 58.51px;
+        margin-left: 75px;
     }
 }
 
