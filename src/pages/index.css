@@ -2,6 +2,7 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__text/page__text.css);
 @import url(../blocks/page/__text/_size/page__text_size_m.css);
 @import url(../blocks/page/__text/_size/page__text_size_l.css);
 @import url(../blocks/page/_scroll/page_scroll_no.css);
