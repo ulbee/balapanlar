@@ -21,8 +21,6 @@
 
 @media screen and (max-width: 680px) {
     .lead__container{
-        border-radius: 40px;
-        background-size: cover;
         background-position: 57% 75%;
     }
 }
