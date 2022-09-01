@@ -2,4 +2,9 @@
   list-style-type: none;
   display: flex;
   max-width: 536px;
+
+  padding-left: 24px;
+
+  background: url(../../../images/check_mark.svg) no-repeat 0 -5px;
+  background-size: 24px 24px;
 }

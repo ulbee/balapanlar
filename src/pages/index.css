@@ -67,11 +67,11 @@
 @import url(../blocks/courses/__item-title/courses__item-title.css);
 @import url(../blocks/bullets-block/bullets-block.css);
 @import url(../blocks/bullets-block/__caption/bullets-block__caption.css);
-@import url(../blocks/bullets-block/__icon-user/bullets-block__icon-user.css);
 @import url(../blocks/studied-material/studied-material.css);
 @import url(../blocks/courses/__studied-material/courses__studied-material.css);
 @import url(../blocks/studied-material/__info/studied-material__info.css);
 @import url(../blocks/courses/__item-skills-container/courses__item-skills-container.css);
+@import url(../blocks/courses/__item-skills-container/_type/courses__item-skills-container_type_no.css);
 @import url(../blocks/courses/__item-skills-icon/courses__item-skills-icon.css);
 @import url(../blocks/courses/__item-skills-text/courses__item-skills-text.css);
 @import url(../blocks/courses/__bullets-block-container/courses__bullets-block-container.css);
@@ -113,7 +113,8 @@
 @import url(../blocks/title/title.css);
 
 @import url(../blocks/bullets-block/__caption/bullets-block__caption.css);
-@import url(../blocks/bullets-block/__icon-user/bullets-block__icon-user.css);
+@import url(../blocks/bullets-block/__user/bullets-block__user.css);
+@import url(../blocks/bullets-block/__time/bullets-block__time.css);
 @import url(../blocks/bullets-block/bullets-block.css);
 @import url(../blocks/courses/__bullets-block-icon/courses__bullets-block-icon.css);
 @import url(../blocks/courses/__bullets-block/courses__bullets-block.css);
