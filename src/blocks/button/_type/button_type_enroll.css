@@ -1,11 +1,11 @@
-.button__enroll {
+.button_type_enroll {
   margin-left: auto;
   padding: 16px 22px;
 }
 
 
 @media screen and (max-width: 1100px) {
-  .button__enroll {
+  .button_type_enroll {
     margin: 0;
     margin-bottom: 35px;
     font-weight: 600;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .button__enroll {
+  .button_type_enroll {
     width: 395px;
     height: 104px;
     margin: 0;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .button__enroll {
+  .button_type_enroll {
     width: 224px;
     height: 52px;
     margin: 0;
