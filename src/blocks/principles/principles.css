@@ -1,0 +1,30 @@
+.principles {
+    max-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    padding: 120px 0;
+    margin-top: 10px;
+
+    background-color: rgba(174, 70, 255, 1);
+    color: rgba(255, 255, 255, 1);
+
+    border-radius: 60px;
+}
+
+/* Версия под планшет 744 в макете */
+@media screen and (max-width: 800px) {
+    .principles {
+        max-height: 100%;
+        overflow: visible;
+
+        padding: 160px 96px;
+    }
+}
+
+/* Версия под мобильные 320 в макете */
+@media screen and (max-width: 680px) {
+    .principles {        
+        padding: 30px 16px;
+    }
+}

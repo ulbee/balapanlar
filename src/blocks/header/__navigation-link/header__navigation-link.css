@@ -1,0 +1,31 @@
+.header__navigation-link {
+  color: #000000;
+  /* font-family: "Montserrat"; */
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+.header__navigation-link:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1110px) {
+  .header__navigation-link {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    max-width: 290px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__navigation-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 290px;
+  }
+}

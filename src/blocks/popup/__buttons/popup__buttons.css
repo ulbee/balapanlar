@@ -1,0 +1,12 @@
+.popup__buttons {
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__buttons {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.about {
+  box-sizing: border-box;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto 0;
+  padding: 120px;
+  background: #fff;
+  border-radius: 60px 60px 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .about{
+    border-radius: 50px 50px 0 0;
+    padding: 80px 75px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .about{
+    padding: 30px 15px;
+  }
+}

@@ -1,0 +1,21 @@
+.lead__button-contacts {
+    margin: 0;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    width: 156px;
+    height: 52px;
+    padding: 0;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    /* .lead__button-contacts {
+        width: 152px;
+    } */
+}

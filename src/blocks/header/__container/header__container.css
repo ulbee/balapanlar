@@ -1,0 +1,15 @@
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1110px) {
+  .header__container {
+    display: none;
+  }
+}
+
+.header_burger-menu-open .header__container {
+  display: flex;
+  flex-direction: column;
+}

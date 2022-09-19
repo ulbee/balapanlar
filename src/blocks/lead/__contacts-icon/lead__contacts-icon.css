@@ -1,0 +1,14 @@
+.lead__contacts-icon {
+    background-image: url(../../../images/telegram.png);
+    width: 22px;
+    height: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .lead__contacts-icon {
+        margin: 0;
+    }
+  }

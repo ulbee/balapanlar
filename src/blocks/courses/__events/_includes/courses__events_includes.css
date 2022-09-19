@@ -1,0 +1,9 @@
+.courses__events_includes {
+    max-width: 381px;
+}
+
+@media screen and (max-width: 1100px) {
+    .courses__events_includes {
+        max-width: none;
+    }
+}

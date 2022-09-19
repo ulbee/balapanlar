@@ -1,0 +1,15 @@
+.courses__price-title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    letter-spacing: -1px;
+}
+
+@media screen and (max-width: 1100px) {
+    .courses__price-title {
+        font-size: 30px;
+        line-height: 36.57px;
+        letter-spacing: -0.5px;
+    }
+}

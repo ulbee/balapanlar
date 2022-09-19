@@ -1,0 +1,22 @@
+.header__logo_scroll {
+  background-image: url(../../../../images/logo_balanpanlar_2.svg);
+  width: 192px;
+  height: 36px;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 1110px) {
+  .header__logo_scroll {
+    width: 165px;
+    height: 30px;
+    margin: 0 0 0 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__logo_scroll {
+    width: 100px;
+    height: 18px;
+    margin: 0;
+  }
+}

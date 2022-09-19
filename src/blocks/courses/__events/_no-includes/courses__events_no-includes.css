@@ -1,0 +1,14 @@
+.courses__events_no-includes {
+}
+
+@media screen and (max-width: 1100px){
+    .courses__events_no-includes {
+        margin-bottom: 94px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .courses__events_no-includes {
+        margin-bottom: 84px;
+    }
+}

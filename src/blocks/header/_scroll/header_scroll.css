@@ -1,0 +1,25 @@
+.header_scroll {
+  height: 80px;
+  max-width: 1440px;
+  position: fixed;
+  top: 0;
+  transition: visibility 5s, opacity 0.5s;
+  z-index: 1;
+  transition: 0.3s ease;
+  margin: auto;
+}
+
+@media screen and (max-width: 1110px) {
+  .header_scroll {
+    height: 80px;
+    border-radius: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_scroll {
+    height: 42px;
+  }
+}

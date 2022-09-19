@@ -1,0 +1,10 @@
+.lead__button-courses-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+}

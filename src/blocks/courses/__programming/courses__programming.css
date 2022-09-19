@@ -1,0 +1,27 @@
+.courses__programming {
+    margin: 40px 0 0;
+    max-width: 1220px;
+    background-color: #FFD643;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 70px;
+    box-sizing: border-box;
+    padding: 0 10px 10px;
+}
+
+@media screen and (max-width: 1200px){
+    .courses__programming {
+        width: calc(100% - 2*45px);
+        border-radius: 60px;
+        padding: 0 30px 30px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .courses__programming {
+        width: 100%;
+        border-radius: 40px;
+        padding: 0 10px 10px;
+    }
+}

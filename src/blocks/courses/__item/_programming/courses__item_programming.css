@@ -1,0 +1,13 @@
+.courses__item_programming {
+    max-width: 595px;
+}
+
+@media screen and (max-width: 1200px) {
+    .courses__item_programming {
+        max-width: none;
+        margin-bottom: 17px;
+    }
+    .courses__item_programming:last-of-type {
+        margin-bottom: 0;
+    }
+}

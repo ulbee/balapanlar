@@ -1,0 +1,12 @@
+.courses__item-skills-container {
+    margin: 12px 0 0;
+    display: flex;
+
+    padding-left: 24px;
+    background: url(../../../images/check_mark.svg) no-repeat 0 -5px;
+    background-size: 24px 24px;
+}
+
+.courses__item-skills-container:first-of-type {
+    margin: 0;
+}

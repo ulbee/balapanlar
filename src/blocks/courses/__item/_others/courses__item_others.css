@@ -1,0 +1,9 @@
+.courses__item_others {
+    max-width: 408px;
+}
+
+@media screen and (max-width: 1200px) {
+    .courses__item_others {
+        max-width: none;
+    }
+}

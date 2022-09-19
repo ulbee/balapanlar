@@ -1,0 +1,31 @@
+.header {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  height: 120px;
+  padding: 0 20px;  
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+}
+
+@media screen and (max-width: 1110px) {
+  .header {
+    height: 80px;
+    border-radius: 0;
+    
+    margin: auto;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 42px;
+  }
+}

@@ -1,0 +1,18 @@
+.popup__check-icons {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  .popup__check-icons {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .popup__check-icons {
+    width: 16px;
+    height: 16px;
+  }
+}

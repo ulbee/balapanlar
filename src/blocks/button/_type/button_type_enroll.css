@@ -1,0 +1,38 @@
+.button_type_enroll {
+  margin-left: auto;
+  padding: 16px 22px;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .button_type_enroll {
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 26px;
+    
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .button_type_enroll {
+    width: 395px;
+    height: 104px;
+    margin: 0;
+    margin-bottom: 83px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button_type_enroll {
+    width: 224px;
+    height: 52px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
